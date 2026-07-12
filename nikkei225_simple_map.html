@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>pydeck</title>
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.14.0/dist/maplibre-gl.css" />
+    <script src='https://cdn.jsdelivr.net/npm/@deck.gl/jupyter-widget@~9.2.*/dist/index.js'></script>
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@deck.gl/widgets@~9.2.*/dist/stylesheet.css />
+    <style>
+    body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#deck-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#deck-container canvas {
+  z-index: 1;
+  background: none;
+}
+
+#deck-container .error_text {
+  color: red;
+  background: none;
+  position: absolute;
+  z-index: 100;
+}
+    </style>
+  </head>
+  <body>
+    <div id="deck-container">
+    </div>
+  </body>
+  <script>
+    const container = document.getElementById('deck-container');
+    const jsonInput = {
+  "initialViewState": {
+    "latitude": 35.6895,
+    "longitude": 139.6917,
+    "pitch": 45,
+    "zoom": 7
+  },
+  "layers": [
+    {
+      "@@type": "ColumnLayer",
+      "data": [
+        {
+          "employees": 12479,
+          "full_address": "2-20, 3-Chome, Toyosu, Tokyo, 135-8608, Japan",
+          "latitude": 35.6570921,
+          "longitude": 139.7954903,
+          "website": "https://www.umios.com/jp"
+        },
+        {
+          "employees": 3720,
+          "full_address": "Akasaka Biz Tower, Minato, 107-6332, Japan",
+          "latitude": 35.6731186,
+          "longitude": 139.7362,
+          "website": "https://www.inpex.com"
+        },
+        {
+          "employees": "",
+          "full_address": "17-1 Higashigotanda 2-chome, Tokyo, 141-8647, Japan",
+          "latitude": 35.6234698,
+          "longitude": 139.7290571,
+          "website": "https://www.comsys-hd.co.jp"
+        },
+        {
+          "employees": 18503,
+          "full_address": "Shinjuku Center Building, Shinjuku, 163-0606, Japan",
+          "latitude": 35.691712,
+          "longitude": 139.6954682,
+          "website": "https://www.taisei.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "2-16-1 Kyobashi, Tokyo, 104-8370, Japan",
+          "latitude": 35.6758835,
+          "longitude": 139.7717019,
+          "website": "https://www.shimz.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "32-1 Shiba 2-chome, Tokyo, 105-8507, Japan",
+          "latitude": 35.6513704,
+          "longitude": 139.7518913,
+          "website": "https://www.haseko.co.jp"
+        },
+        {
+          "employees": 55712,
+          "full_address": "3-3-5 Umeda, Kita, 530-8241, Japan",
+          "latitude": 34.7008328,
+          "longitude": 135.4938815,
+          "website": "https://www.daiwahouse.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "2-3-1, Minato Mirai, Yokohama, 220-6001, Japan",
+          "latitude": 35.4594441,
+          "longitude": 139.6323669,
+          "website": "https://www.jgc.com"
+        },
+        {
+          "employees": "",
+          "full_address": "2-4-16, Kyobashi, Tokyo, 104-0031, Japan",
+          "latitude": 35.6758835,
+          "longitude": 139.7717019,
+          "website": "https://www.meiji.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Breeze Tower, Osaka, 530-0001, Japan",
+          "latitude": 34.6986403,
+          "longitude": 135.4938657,
+          "website": "https://www.nipponham.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Akasaka Intercity, Tokyo, 107-0052, Japan",
+          "latitude": 35.6688109,
+          "longitude": 139.7424392,
+          "website": "https://corporate.m3.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Shibuya Scramble Square, Tokyo, 150-6140, Japan",
+          "latitude": 35.6583792,
+          "longitude": 139.7022161,
+          "website": "https://dena.com/intl"
+        },
+        {
+          "employees": 6102,
+          "full_address": "20-1, Ebisu 4-chome, Shibuya, 150-8522, Japan",
+          "latitude": 35.6449777,
+          "longitude": 139.7139662,
+          "website": "https://www.sapporoholdings.jp"
+        },
+        {
+          "employees": 28173,
+          "full_address": "1-23-1 Azumabashi, Tokyo, 130-8602, Japan",
+          "latitude": 35.7093428,
+          "longitude": 139.8030214,
+          "website": "https://www.asahigroup-holdings.com/en/"
+        },
+        {
+          "employees": 31144,
+          "full_address": "Nakano Central Park South, Nakano, 164-0001, Japan",
+          "latitude": 35.7069338,
+          "longitude": 139.6617198,
+          "website": "https://www.kirinholdings.com/jp/"
+        },
+        {
+          "employees": 26789,
+          "full_address": "1-1, Uchisaiwaicho 2-chome, Tokyo, 100-8691, Japan",
+          "latitude": 35.6709858,
+          "longitude": 139.7526507,
+          "website": "https://www.sojitz.com"
+        },
+        {
+          "employees": "",
+          "full_address": "250 Noda, Noda, 278-8601, Japan",
+          "latitude": 35.9483936,
+          "longitude": 139.8679835,
+          "website": "https://www.kikkoman.com/jp/"
+        },
+        {
+          "employees": 34787,
+          "full_address": "15-1, Kyobashi 1-chome, Tokyo, 104-8315, Japan",
+          "latitude": 35.678152,
+          "longitude": 139.772166,
+          "website": "https://www.ajinomoto.co.jp"
+        },
+        {
+          "employees": 17763,
+          "full_address": "Nichirei Higashi-Ginza Building, Tokyo, 104-8402, Japan",
+          "latitude": 35.6637365,
+          "longitude": 139.7745799,
+          "website": "https://www.nichirei.co.jp"
+        },
+        {
+          "employees": 52867,
+          "full_address": "1-1, Toranomon 4-chome, Tokyo, 105-6927, Japan",
+          "latitude": 35.6651099,
+          "longitude": 139.7453425,
+          "website": "https://www.jt.com"
+        },
+        {
+          "employees": 5584,
+          "full_address": "6-10-1 Ginza, Chuo, Japan",
+          "latitude": 35.6695326,
+          "longitude": 139.764049,
+          "website": "https://www.j-front-retailing.com"
+        },
+        {
+          "employees": 8670,
+          "full_address": "5-16-10 Shinjuku, Shinjuku, 160-0022, Japan",
+          "latitude": 35.6935771,
+          "longitude": 139.7004963,
+          "website": "https://www.imhds.co.jp"
+        },
+        {
+          "employees": 9398,
+          "full_address": "Osaka Umeda Twin Towers South, Osaka, 530-0001, Japan",
+          "latitude": 34.7009804,
+          "longitude": 135.4976698,
+          "website": "https://www.toyobo-global.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Osaka Center Building, Osaka, 541-8566, Japan",
+          "latitude": 34.6381291,
+          "longitude": 135.4148351,
+          "website": "https://www.unitika.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Shibuya Solasta, Tokyo, 150-0043, Japan",
+          "latitude": 35.6563754,
+          "longitude": 139.6964751,
+          "website": "https://www.tokyu-fudosan-hd.co.jp"
+        },
+        {
+          "employees": 35967,
+          "full_address": "8-8, Nibancho, Chiyoda, 102-8452, Japan",
+          "latitude": 35.6853076,
+          "longitude": 139.7334714,
+          "website": "https://www.7andi.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Nihonbashi Mitsui Tower, Tokyo, 103-8666, Japan",
+          "latitude": 35.6879574,
+          "longitude": 139.7724472,
+          "website": "https://www.toray.co.jp"
+        },
+        {
+          "employees": 12117,
+          "full_address": "Tokiwabashi Tower, Chiyoda, 100-0004, Japan",
+          "latitude": 35.6841729,
+          "longitude": 139.770614,
+          "website": "https://www.kuraray.com"
+        },
+        {
+          "employees": 9834,
+          "full_address": "1-4-5 Roppongi, Tokyo, 106-0032, Japan",
+          "latitude": 35.6624568,
+          "longitude": 139.7334981,
+          "website": "https://www.nexon.co.jp"
+        },
+        {
+          "employees": 38757,
+          "full_address": "7-5, Ginza 4-chome, Chuo, 104-0061, Japan",
+          "latitude": 35.67117,
+          "longitude": 139.766249,
+          "website": "https://www.ojiholdings.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "4-6 Kanda Surugadai, Tokyo, 101-0062, Japan",
+          "latitude": 35.6982923,
+          "longitude": 139.7638607,
+          "website": "https://www.nipponpapergroup.com"
+        },
+        {
+          "employees": 21525,
+          "full_address": "Tokyo Shiodome Building, Tokyo, 105-7325, Japan",
+          "latitude": 35.6629928,
+          "longitude": 139.7611986,
+          "website": "https://www.resonac.com"
+        },
+        {
+          "employees": "",
+          "full_address": "5-1, Nihonbashi 2-Chome, Tokyo, 103-6119, Japan",
+          "latitude": 35.6814904,
+          "longitude": 139.7737088,
+          "website": "https://www.nissanchem.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Front Place Akihabara, Tokyo, 101-8618, Japan",
+          "latitude": 35.6995538,
+          "longitude": 139.7700119,
+          "website": "https://www.tokuyama.co.jp"
+        },
+        {
+          "employees": 6454,
+          "full_address": "Nihonbashi Mitsui Tower, Chuo, 103-8338, Japan",
+          "latitude": 35.6879574,
+          "longitude": 139.7724472,
+          "website": "https://www.denka.co.jp"
+        },
+        {
+          "employees": 16967,
+          "full_address": "Tokyo Midtown Yaesu, Tokyo, 104-0028, Japan",
+          "latitude": 35.6792973,
+          "longitude": 139.7690941,
+          "website": "https://jp.mitsuichemicals.com/en"
+        },
+        {
+          "employees": "",
+          "full_address": "1-1 Marunouchi 1-chome, Chiyoda, 100-8251, Japan",
+          "latitude": 35.6853311,
+          "longitude": 139.7615043,
+          "website": "https://www.mcgc.com"
+        },
+        {
+          "employees": 47029,
+          "full_address": "1-1, Nihonbashi-Honcho 2-chome, Chuo, 103-8668, Japan",
+          "latitude": 35.6876317,
+          "longitude": 139.7745467,
+          "website": "https://www.takeda.com"
+        },
+        {
+          "employees": 14099,
+          "full_address": "2-5-1, Nihonbashi-Honcho, Chuo, 103-8411, Japan",
+          "latitude": 35.6878892,
+          "longitude": 139.7754733,
+          "website": "https://www.astellas.com"
+        },
+        {
+          "employees": "",
+          "full_address": "6-8, Doshomachi 2-chome, Osaka, 541-0045, Japan",
+          "latitude": 34.6884656,
+          "longitude": 135.505109,
+          "website": "https://www.sumitomo-pharma.com"
+        },
+        {
+          "employees": 5104,
+          "full_address": "Nihonbashi Mitsui Tower, Chuo, 103-8324, Japan",
+          "latitude": 35.6879574,
+          "longitude": 139.7724472,
+          "website": "https://www.chugai-pharm.co.jp"
+        },
+        {
+          "employees": 10543,
+          "full_address": "4-6-10 Koishikawa, Tokyo, 112-8088, Japan",
+          "latitude": 35.7131491,
+          "longitude": 139.7460916,
+          "website": "https://www.eisai.co.jp"
+        },
+        {
+          "employees": 37758,
+          "full_address": "2-9 Kanda-Tsukasamachi, Chiyoda, 101-0048, Japan",
+          "latitude": 35.6935785,
+          "longitude": 139.7674863,
+          "website": "https://www.otsuka.com"
+        },
+        {
+          "employees": 20884,
+          "full_address": "DIC Building, Tokyo, 103-8233, Japan",
+          "latitude": 35.6799625,
+          "longitude": 139.7727487,
+          "website": "https://www.dic-global.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Kioi Tower, Chiyoda, 102-8282, Japan",
+          "latitude": 35.6794934,
+          "longitude": 139.7370003,
+          "website": "https://www.lycorp.co.jp/ja"
+        },
+        {
+          "employees": 6717,
+          "full_address": "JR Shinjuku Miraina Tower, Shinjuku, 160-0022, Japan",
+          "latitude": 35.6887825,
+          "longitude": 139.7019059,
+          "website": "https://www.trendmicro.com"
+        },
+        {
+          "employees": 8150,
+          "full_address": "Abema Towers, Shibuya, 150-0042, Japan",
+          "latitude": 35.6624347,
+          "longitude": 139.6962401,
+          "website": "https://www.cyberagent.co.jp"
+        },
+        {
+          "employees": 29419,
+          "full_address": "Rakuten Crimson House, Setagaya, 158-0094, Japan",
+          "latitude": 35.6104622,
+          "longitude": 139.6301068,
+          "website": "https://global.rakuten.com/corp"
+        },
+        {
+          "employees": "",
+          "full_address": "7-3, Akasaka 9-chome, Minato, 107-0052, Japan",
+          "latitude": 35.6665515,
+          "longitude": 139.7304649,
+          "website": "https://holdings.fujifilm.com"
+        },
+        {
+          "employees": 34363,
+          "full_address": "JP Tower, Tokyo, 100-7015, Japan",
+          "latitude": 35.679647,
+          "longitude": 139.7648033,
+          "website": "https://www.konicaminolta.com"
+        },
+        {
+          "employees": 14392,
+          "full_address": "1-2-1 Otemachi, Chiyoda, 100-8321, Japan",
+          "latitude": 35.6868132,
+          "longitude": 139.76608,
+          "website": "https://www.idemitsu.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-1-2, Otemachi, Tokyo, 100-8162, Japan",
+          "latitude": 35.6868132,
+          "longitude": 139.76608,
+          "website": "https://www.hd.eneos.co.jp"
+        },
+        {
+          "employees": 34471,
+          "full_address": "2-1 Oiwake, Hiratsuka, 254-8601, Japan",
+          "latitude": 35.337371,
+          "longitude": 139.341919,
+          "website": "https://www.y-yokohama.com"
+        },
+        {
+          "employees": 115716,
+          "full_address": "3-1-1 Kyobashi, Chuo, 104-8340, Japan",
+          "latitude": 35.6758835,
+          "longitude": 139.7717019,
+          "website": "https://www.bridgestone.co.jp"
+        },
+        {
+          "employees": 52896,
+          "full_address": "1-5-1, Marunouchi, Chiyoda, 100-8405, Japan",
+          "latitude": 35.6790703,
+          "longitude": 139.7652988,
+          "website": "https://www.agc.com"
+        },
+        {
+          "employees": 5218,
+          "full_address": "7-1, Seiran 2-chome, Otsu, 520-8639, Japan",
+          "latitude": 34.9828715,
+          "longitude": 135.8988243,
+          "website": "https://www.neg.co.jp"
+        },
+        {
+          "employees": 4436,
+          "full_address": "Aoyama Building, Tokyo, 107-8636, Japan",
+          "latitude": 35.6730174,
+          "longitude": 139.7232379,
+          "website": "https://www.tokaicarbon.co.jp"
+        },
+        {
+          "employees": 30324,
+          "full_address": "1-1, Nakashima 2-chome, Kitakyushu, 802-8601, Japan",
+          "latitude": 33.8751412,
+          "longitude": 130.8748269,
+          "website": "https://jp.toto.com"
+        },
+        {
+          "employees": "",
+          "full_address": "2-6-1, Marunouchi, Tokyo, 100-8071, Japan",
+          "latitude": 35.6790703,
+          "longitude": 139.7652988,
+          "website": "https://www.nipponsteel.com"
+        },
+        {
+          "employees": "",
+          "full_address": "2-2-3 Uchisaiwaicho, Chiyoda, 100-0011, Japan",
+          "latitude": 35.6699956,
+          "longitude": 139.7570758,
+          "website": "https://www.jfe-holdings.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-11-1 Osaki, Tokyo, 141-8584, Japan",
+          "latitude": 35.620241,
+          "longitude": 139.7260761,
+          "website": "https://www.mitsui-kinzoku.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Marunouchi Nijubashi Building, Chiyoda, 100-8117, Japan",
+          "latitude": 35.677769,
+          "longitude": 139.7614608,
+          "website": "https://www.mmc.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Akihabara UDX, Tokyo, 101-0021, Japan",
+          "latitude": 35.7003697,
+          "longitude": 139.7726097,
+          "website": "https://hd.dowa.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Tokiwabashi Tower, Chiyoda, 100-8322, Japan",
+          "latitude": 35.6841729,
+          "longitude": 139.770614,
+          "website": "https://www.furukawa.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Sumitomo Building, Chuo, 541-0041, Japan",
+          "latitude": 35.6972735,
+          "longitude": 139.6835523,
+          "website": "https://sumitomoelectric.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-5-1, Kiba, Tokyo, 135-8512, Japan",
+          "latitude": 35.6714772,
+          "longitude": 139.8057495,
+          "website": "https://www.fujikura.co.jp"
+        },
+        {
+          "employees": 45586,
+          "full_address": "1-9-2 Marunouchi, Tokyo, 100-6610, Japan",
+          "latitude": 35.6790703,
+          "longitude": 139.7652988,
+          "website": "https://recruit-holdings.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Oguchi-cho, Niwa, 480-0193, Japan",
+          "latitude": 35.3323912,
+          "longitude": 136.9080051,
+          "website": "https://www.okuma.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "200, Ishida, Isehara, 259-1196, Japan",
+          "latitude": 35.4161819,
+          "longitude": 139.3410235,
+          "website": "https://www.amada.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "2-3-1 Otemachi, Tokyo, 100-8791, Japan",
+          "latitude": 35.6868132,
+          "longitude": 139.76608,
+          "website": "https://japanpost.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Shiodome Building, Tokyo, 105-8316, Japan",
+          "latitude": 35.6568282,
+          "longitude": 139.7593937,
+          "website": "https://www.komatsu.jp"
+        },
+        {
+          "employees": 25123,
+          "full_address": "ThinkPark Tower, Tokyo, 141-6025, Japan",
+          "latitude": 35.6178229,
+          "longitude": 139.7274363,
+          "website": "https://www.shi.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "16-1, Higashiueno 2-chome, Tokyo, 110-0015, Japan",
+          "latitude": 35.7093102,
+          "longitude": 139.7769034,
+          "website": "https://www.hitachicm.com"
+        },
+        {
+          "employees": 52503,
+          "full_address": "2-47 Shikitsu Higashi 1-chome, Osaka, 556-8601, Japan",
+          "latitude": 34.6586646,
+          "longitude": 135.5002188,
+          "website": "https://www.kubota.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Osaka Umeda Twin Towers South, Osaka, 530-0001, Japan",
+          "latitude": 34.7009804,
+          "longitude": 135.4976698,
+          "website": "https://www.daikin.com"
+        },
+        {
+          "employees": 26278,
+          "full_address": "Nissei Building, Tokyo, 141-8560, Japan",
+          "latitude": 35.6201184,
+          "longitude": 139.7299791,
+          "website": "https://www.nsk.com/index.html"
+        },
+        {
+          "employees": "",
+          "full_address": "6-6, Marunouchi 1-chome, Tokyo, 100-8280, Japan",
+          "latitude": 35.68156,
+          "longitude": 139.767201,
+          "website": "https://www.hitachi.com/ja-jp"
+        },
+        {
+          "employees": 150386,
+          "full_address": "Tokyo Building, Chiyoda, 100-8310, Japan",
+          "latitude": 35.6784426,
+          "longitude": 139.7648084,
+          "website": "https://www.mitsubishielectric.com"
+        },
+        {
+          "employees": 12483,
+          "full_address": "2-1 Kurosakishiroishi, Kitakyushu, 806-0004, Japan",
+          "latitude": 33.8690218,
+          "longitude": 130.7658213,
+          "website": "https://www.yaskawa.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "7-1, Shiba 5-chome, Tokyo, 108-8001, Japan",
+          "latitude": 35.647148,
+          "longitude": 139.7469836,
+          "website": "https://www.nec.com"
+        },
+        {
+          "employees": "",
+          "full_address": "4-1-1 Kamikodanaka, Kawasaki, 211-8588, Japan",
+          "latitude": 35.5864654,
+          "longitude": 139.6369375,
+          "website": "https://global.fujitsu/en-global"
+        },
+        {
+          "employees": "",
+          "full_address": "1-7-12 Toranomon, Tokyo, 105-8460, Japan",
+          "latitude": 35.662054,
+          "longitude": 139.7441432,
+          "website": "https://www.oki.com"
+        },
+        {
+          "employees": 183685,
+          "full_address": "1006 Kadoma, Kadoma, 571-8501, Japan",
+          "latitude": 34.7381762,
+          "longitude": 135.5750906,
+          "website": "https://holdings.panasonic"
+        },
+        {
+          "employees": "",
+          "full_address": "1 Takumi-cho, Sakai, 590-8522, Japan",
+          "latitude": 34.5960165,
+          "longitude": 135.4333488,
+          "website": "https://corporate.jp.sharp"
+        },
+        {
+          "employees": 94900,
+          "full_address": "1-7-1 Konan Minato-ku, Tokyo, 108-0075, Japan",
+          "latitude": 35.6301291,
+          "longitude": 139.7507521,
+          "website": "https://www.sony.com"
+        },
+        {
+          "employees": 106545,
+          "full_address": "Nihonbashi Takashimaya Mitsui Building, Tokyo, 103-6128, Japan",
+          "latitude": 35.6813165,
+          "longitude": 139.7738266,
+          "website": "https://www.tdk.com/en/index.html"
+        },
+        {
+          "employees": "",
+          "full_address": "1-7, Yukigaya-otsukamachi, Tokyo, 145-8501, Japan",
+          "latitude": 35.5922109,
+          "longitude": 139.678368,
+          "website": "https://www.alpsalpine.com"
+        },
+        {
+          "employees": "",
+          "full_address": "9-32, Nakacho 2-chome, Musashino, 180-8750, Japan",
+          "latitude": 35.706481,
+          "longitude": 139.564517,
+          "website": "https://www.yokogawa.com"
+        },
+        {
+          "employees": "",
+          "full_address": "3580 Oshino-mura, Yamanashi, 401-0597, Japan",
+          "latitude": 35.4600722,
+          "longitude": 138.8478637,
+          "website": "https://www.fanuc.co.jp"
+        },
+        {
+          "employees": 74302,
+          "full_address": "10-1, Higashikotari 1-chome, Nagaokakyo, 617-8555, Japan",
+          "latitude": 34.9244605,
+          "longitude": 135.7032323,
+          "website": "https://www.murata.com"
+        },
+        {
+          "employees": 26477,
+          "full_address": "Grand Front Osaka, Osaka, 530-0011, Japan",
+          "latitude": 34.7039643,
+          "longitude": 135.4947447,
+          "website": "https://www.nitto.com/jp/en"
+        },
+        {
+          "employees": "",
+          "full_address": "6-4, Tsukiji 5-chome, Tokyo, 104-8439, Japan",
+          "latitude": 35.6627112,
+          "longitude": 139.7649443,
+          "website": "https://www.mes.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "2-3, Marunouchi 3-chome, Chiyoda, 100-8332, Japan",
+          "latitude": 35.677769,
+          "longitude": 139.7614608,
+          "website": "https://www.mhi.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-14-5, Kaigan, Tokyo, 105-8315, Japan",
+          "latitude": 35.6387548,
+          "longitude": 139.7532186,
+          "website": "https://global.kawasaki.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Toyosu IHI Building, Koto, 135-8710, Japan",
+          "latitude": 35.658997,
+          "longitude": 139.7932065,
+          "website": "https://www.ihi.co.jp"
+        },
+        {
+          "employees": 6313,
+          "full_address": "Tokyo Nihonbashi Tower, Tokyo, 103-6034, Japan",
+          "latitude": 35.6818575,
+          "longitude": 139.7743226,
+          "website": "https://yokohamafg.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-1, Takashima 1-chome, Yokohama, 220-8686, Japan",
+          "latitude": 35.4634946,
+          "longitude": 139.6261515,
+          "website": "https://www.nissan-global.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-2-5, Takashima, Yokohama, 220-8720, Japan",
+          "latitude": 35.4622243,
+          "longitude": 139.6227788,
+          "website": "https://www.isuzu.co.jp"
+        },
+        {
+          "employees": 47144,
+          "full_address": "3-1 Shinchi, Hiroshima, 730-8670, Japan",
+          "latitude": 34.380837,
+          "longitude": 132.501585,
+          "website": "https://www.mazda.com"
+        },
+        {
+          "employees": "",
+          "full_address": "300 Takatsuka-cho, Hamamatsu, 432-8611, Japan",
+          "latitude": 34.690267,
+          "longitude": 137.681178,
+          "website": "https://www.globalsuzuki.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-5-20, Nishioi, Shinagawa, 140-8601, Japan",
+          "latitude": 35.5970691,
+          "longitude": 139.7226401,
+          "website": "https://www.nikon.com"
+        },
+        {
+          "employees": "",
+          "full_address": "6-1-12, Tanashi-cho, Nishitokyo, 188-8511, Japan",
+          "latitude": 35.7301842,
+          "longitude": 139.5419939,
+          "website": "https://www.citizen.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "3-3 Suido 1-chome, Tokyo, 112-8531, Japan",
+          "latitude": 35.7091646,
+          "longitude": 139.7414372,
+          "website": "https://www.holdings.toppan.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-1, Ichigaya-Kagacho, Tokyo, 162-8001, Japan",
+          "latitude": 35.6966944,
+          "longitude": 139.7297181,
+          "website": "https://www.dnp.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "10-1, Nakazawa-cho, Hamamatsu, 430-8650, Japan",
+          "latitude": 34.721623,
+          "longitude": 137.728872,
+          "website": "https://www.yamaha.com"
+        },
+        {
+          "employees": 114570,
+          "full_address": "5-1, Kita-Aoyama 2-chome, Tokyo, 107-8077, Japan",
+          "latitude": 35.6715348,
+          "longitude": 139.719313,
+          "website": "https://www.itochu.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "9-8, Meieki 4-chome, Nagoya, 450-8575, Japan",
+          "latitude": 35.1692357,
+          "longitude": 136.887076,
+          "website": "https://www.toyota-tsusho.com"
+        },
+        {
+          "employees": 55463,
+          "full_address": "2-1, Otemachi 1-chome, Chiyoda, 100-8631, Japan",
+          "latitude": 35.6877334,
+          "longitude": 139.7624452,
+          "website": "https://www.mitsui.com/jp/en/"
+        },
+        {
+          "employees": "",
+          "full_address": "Akasaka Biz Tower, Tokyo, 107-6325, Japan",
+          "latitude": 35.6731186,
+          "longitude": 139.7362,
+          "website": "https://www.tel.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Otemachi Place East Tower, Chiyoda, 100-8601, Japan",
+          "latitude": 35.6872161,
+          "longitude": 139.7680616,
+          "website": "https://www.sumitomocorp.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Mitsubishi Shoji Building, Tokyo, 100-8086, Japan",
+          "latitude": 35.6810455,
+          "longitude": 139.7625866,
+          "website": "https://www.mitsubishicorp.com"
+        },
+        {
+          "employees": 6518,
+          "full_address": "1-5, Namba 5-chome, Chuo, 542-8510, Japan",
+          "latitude": 34.6646623,
+          "longitude": 135.5010775,
+          "website": "https://www.takashimaya.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "3-2, Nakano 4-chome, Tokyo, 164-8701, Japan",
+          "latitude": 35.7095032,
+          "longitude": 139.664459,
+          "website": "https://www.0101maruigroup.co.jp"
+        },
+        {
+          "employees": 179230,
+          "full_address": "1-5-1 Nakase, Chiba, 261-8515, Japan",
+          "latitude": 35.6525021,
+          "longitude": 140.0396467,
+          "website": "https://www.aeon.info"
+        },
+        {
+          "employees": "",
+          "full_address": "6-1-1, Kojimachi, Chiyoda, 102-8660, Japan",
+          "latitude": 35.6838064,
+          "longitude": 139.7379229,
+          "website": "https://www.aozorabank.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "4-5, Marunouchi 1-chome, Tokyo, 100-8330, Japan",
+          "latitude": 35.6836703,
+          "longitude": 139.7646652,
+          "website": "https://www.mufg.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-4-1 Marunouchi, Chiyoda, Japan",
+          "latitude": 35.6790703,
+          "longitude": 139.7652988,
+          "website": "https://www.smtg.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-2, Marunouchi 1-chome, Tokyo, 100-0005, Japan",
+          "latitude": 35.6849855,
+          "longitude": 139.7623942,
+          "website": "https://www.smfg.co.jp"
+        },
+        {
+          "employees": 52427,
+          "full_address": "Otemachi Tower, Chiyoda, 100-8176, Japan",
+          "latitude": 35.6853655,
+          "longitude": 139.7653986,
+          "website": "https://www.mizuho-fg.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "GranTokyo North Tower, Tokyo, 100-6751, Japan",
+          "latitude": 35.6815814,
+          "longitude": 139.7690823,
+          "website": "https://www.daiwa-grp.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "13-1, Nihonbashi 1-chome, Tokyo, 103-8645, Japan",
+          "latitude": 35.6822336,
+          "longitude": 139.7755701,
+          "website": "https://www.nomuraholdings.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-4, Kojimachi, Tokyo, 102-8516, Japan",
+          "latitude": 35.6838064,
+          "longitude": 139.7379229,
+          "website": "https://www.matsui.co.jp"
+        },
+        {
+          "employees": 55702,
+          "full_address": "26-1, Nishi-Shinjuku 1-chome, Tokyo, 160-8338, Japan",
+          "latitude": 35.6925857,
+          "longitude": 139.6965412,
+          "website": "https://www.sompo-hd.com"
+        },
+        {
+          "employees": "",
+          "full_address": "West Tower, Tokyo, 104-0033, Japan",
+          "latitude": 35.6856884,
+          "longitude": 139.7637347,
+          "website": "https://www.ms-ad-hd.com"
+        },
+        {
+          "employees": "",
+          "full_address": "13-1, Yurakucho 1-chome, Tokyo, 100-8411, Japan",
+          "latitude": 35.6870715,
+          "longitude": 139.7660727,
+          "website": "https://www.daiichilife-group.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Tokiwabashi Tower, Tokyo, 100-0004, Japan",
+          "latitude": 35.6841729,
+          "longitude": 139.770614,
+          "website": "https://www.tokiomarinehd.com"
+        },
+        {
+          "employees": 21268,
+          "full_address": "2-7-1, Nihonbashi, Tokyo, 103-6031, Japan",
+          "latitude": 35.6812562,
+          "longitude": 139.7730907,
+          "website": "https://www.td-holdings.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-1, Nihonbashi-Muromachi 2-chome, Tokyo, Japan",
+          "latitude": 35.686841,
+          "longitude": 139.773767,
+          "website": "https://www.mitsuifudosan.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Otemachi Park Building, Tokyo, 100-8133, Japan",
+          "latitude": 35.6867443,
+          "longitude": 139.7625218,
+          "website": "https://www.mec.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Shinjuku NS Building, Tokyo, 163-0820, Japan",
+          "latitude": 35.689148,
+          "longitude": 139.6939748,
+          "website": "https://www.sumitomo-rd.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-1-2 Oshiage, Tokyo, 131-8522, Japan",
+          "latitude": 35.7125387,
+          "longitude": 139.8148147,
+          "website": "https://www.tobu.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "2-7-1, Nishi-Shinjuku, Tokyo, 163-0706, Japan",
+          "latitude": 35.690719,
+          "longitude": 139.6941527,
+          "website": "https://www.odakyu.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-9-1 Sekido, Tokyo, 206-8502, Japan",
+          "latitude": 35.6517612,
+          "longitude": 139.4531994,
+          "website": "https://www.keio.co.jp"
+        },
+        {
+          "employees": 70623,
+          "full_address": "2-2-2 Yoyogi, Tokyo, Japan",
+          "latitude": 35.682304,
+          "longitude": 139.6917362,
+          "website": "https://www.jreast.co.jp"
+        },
+        {
+          "employees": 47225,
+          "full_address": "4-24 Shibata 2-chome, Kita, 530-8341, Japan",
+          "latitude": 34.706963,
+          "longitude": 135.4958108,
+          "website": "https://www.westjr.co.jp"
+        },
+        {
+          "employees": 174696,
+          "full_address": "16-10, Ginza 2-chome, Chuo, 104-8125, Japan",
+          "latitude": 35.672914,
+          "longitude": 139.768126,
+          "website": "https://www.yamato-hd.co.jp"
+        },
+        {
+          "employees": 39830,
+          "full_address": "2-3-2, Marunouchi 2 Chome, Chiyoda, 100-0005, Japan",
+          "latitude": 35.680022,
+          "longitude": 139.763447,
+          "website": "https://www.nyk.com"
+        },
+        {
+          "employees": "",
+          "full_address": "Iino Building, Tokyo, 100-8540, Japan",
+          "latitude": 35.6708701,
+          "longitude": 139.7527665,
+          "website": "https://www.kline.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "Shiodome City Center, Minato, 105-7140, Japan",
+          "latitude": 35.6653726,
+          "longitude": 139.7610048,
+          "website": "https://www.ana.co.jp"
+        },
+        {
+          "employees": 769,
+          "full_address": "1-8-1 Akasaka, Minato, 107-0052, Japan",
+          "latitude": 35.6716786,
+          "longitude": 139.7356224,
+          "website": "https://www.skyperfectjsat.space"
+        },
+        {
+          "employees": 344196,
+          "full_address": "East Tower, Chiyoda, 100-8116, Japan",
+          "latitude": 35.7007911,
+          "longitude": 139.7497076,
+          "website": "https://group.ntt"
+        },
+        {
+          "employees": "",
+          "full_address": "THE LINKPILLAR 1 NORTH, Tokyo, 108-8618, Japan",
+          "latitude": 35.6363977,
+          "longitude": 139.7402806,
+          "website": "https://www.kddi.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-7-1 Kaigan, Minato, 105-7529, Japan",
+          "latitude": 35.6452654,
+          "longitude": 139.7573804,
+          "website": "https://www.softbank.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-1-3 Uchisaiwai-cho, Tokyo, 100-8560, Japan",
+          "latitude": 35.6699956,
+          "longitude": 139.7570758,
+          "website": "https://www.tepco.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1 Higashi-shincho, Nagoya, 461-8680, Japan",
+          "latitude": 35.1241589,
+          "longitude": 136.8520764,
+          "website": "https://www.chuden.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "3-6-16, Nakanoshima, Osaka, 530-8270, Japan",
+          "latitude": 34.6944143,
+          "longitude": 135.47209,
+          "website": "https://www.kepco.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-5-20 Kaigan, Tokyo, 105-8527, Japan",
+          "latitude": 35.6452654,
+          "longitude": 139.7573804,
+          "website": "https://www.tokyo-gas.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "4-1-2, Hiranomachi, Osaka, 541-0046, Japan",
+          "latitude": 34.6878132,
+          "longitude": 135.4992169,
+          "website": "https://www.osakagas.co.jp"
+        },
+        {
+          "employees": 4088,
+          "full_address": "1-2-2 Yurakucho, Chiyoda, Japan",
+          "latitude": 35.6736817,
+          "longitude": 139.7611853,
+          "website": "https://toho.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "5-1, Jingumae 1-chome, Tokyo, 150-0001, Japan",
+          "latitude": 35.6712737,
+          "longitude": 139.7070912,
+          "website": "https://www.secom.co.jp"
+        },
+        {
+          "employees": "",
+          "full_address": "1-11-1, Ginza, Tokyo, 104-0061, Japan",
+          "latitude": 35.6720135,
+          "longitude": 139.7647202,
+          "website": "https://www.konami.com"
+        },
+        {
+          "employees": "",
+          "full_address": "1-7-1, Kaigan, Tokyo, 105-7537, Japan",
+          "latitude": 35.6452654,
+          "longitude": 139.7573804,
+          "website": "https://group.softbank"
+        }
+      ],
+      "elevationScale": 0.5,
+      "getElevation": "@@=employees",
+      "getFillColor": "@@=[255, 0, 0, 200]",
+      "getPosition": "@@=[longitude, latitude]",
+      "id": "d6aefbe1-4894-4b78-bd41-bf9cc5320c67",
+      "pickable": true,
+      "radius": 1000
+    }
+  ],
+  "mapProvider": "carto",
+  "mapStyle": "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+  "views": [
+    {
+      "@@type": "MapView",
+      "controller": true
+    }
+  ]
+};
+    const tooltip = {'text': 'website: {website}\n employees:{employees}'};
+    const customLibraries = null;
+    const configuration = null;
+
+    const deckInstance = createDeck({
+                  container,
+      jsonInput,
+      tooltip,
+      customLibraries,
+      configuration,
+          });
+
+  </script>
+</html>

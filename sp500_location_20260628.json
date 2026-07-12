@@ -1,0 +1,2788 @@
+{
+    "MSFT": {
+        "full_address": "One Microsoft Way, Redmond, 98052-6399, United States",
+        "latitude": 47.6411813,
+        "longitude": -122.1266792,
+        "employees": 228000,
+        "website": "https://www.microsoft.com"
+    },
+    "AAPL": {
+        "full_address": "One Apple Park Way, Cupertino, 95014, United States",
+        "latitude": 37.3350144,
+        "longitude": -122.0131527,
+        "employees": 166000,
+        "website": "https://www.apple.com"
+    },
+    "NVDA": {
+        "full_address": "2788 San Tomas Expressway, Santa Clara, 95051, United States",
+        "latitude": 37.3705437,
+        "longitude": -121.9670806,
+        "employees": 42000,
+        "website": "https://www.nvidia.com"
+    },
+    "AMZN": {
+        "full_address": "410 Terry Avenue North, Seattle, 98109-5210, United States",
+        "latitude": 47.622298,
+        "longitude": -122.3365001,
+        "employees": 1575000,
+        "website": "https://www.amazon.com"
+    },
+    "GOOGL": {
+        "full_address": "1600 Amphitheatre Parkway, Mountain View, 94043, United States",
+        "latitude": 37.4224858,
+        "longitude": -122.0855846,
+        "employees": 194668,
+        "website": "https://abc.xyz"
+    },
+    "GOOG": {
+        "full_address": "1600 Amphitheatre Parkway, Mountain View, 94043, United States",
+        "latitude": 37.4224858,
+        "longitude": -122.0855846,
+        "employees": 194668,
+        "website": "https://abc.xyz"
+    },
+    "META": {
+        "full_address": "1 Meta Way, Menlo Park, 94025, United States",
+        "latitude": 37.4810509,
+        "longitude": -122.1590645,
+        "employees": 77986,
+        "website": "https://www.meta.com"
+    },
+    "BRK-B": {
+        "full_address": "3555 Farnam Street, Omaha, 68131, United States",
+        "latitude": 41.2574068,
+        "longitude": -95.9653894,
+        "employees": 387800,
+        "website": "https://www.berkshirehathaway.com"
+    },
+    "LLY": {
+        "full_address": "Lilly Corporate Center, Indianapolis, 46285, United States",
+        "latitude": 39.7546888,
+        "longitude": -86.1537802,
+        "employees": 50000,
+        "website": "https://www.lilly.com"
+    },
+    "AVGO": {
+        "full_address": "3421 Hillview Ave, Palo Alto, 94304, United States",
+        "latitude": 37.3990267,
+        "longitude": -122.1444156,
+        "employees": 33000,
+        "website": "https://www.broadcom.com"
+    },
+    "V": {
+        "full_address": "300 Toni Stone Crossing, San Francisco, 94158, United States",
+        "latitude": 37.7754338,
+        "longitude": -122.3887262,
+        "employees": 34100,
+        "website": "https://www.visa.com"
+    },
+    "TSLA": {
+        "full_address": "1 Tesla Road, Austin, 78725, United States",
+        "latitude": 30.2219321,
+        "longitude": -97.6187733,
+        "employees": 134785,
+        "website": "https://www.tesla.com"
+    },
+    "JPM": {
+        "full_address": "270 Park Avenue, New York, 10017, United States",
+        "latitude": 40.7559787,
+        "longitude": -73.9759701,
+        "employees": 320079,
+        "website": "https://www.jpmorganchase.com"
+    },
+    "WMT": {
+        "full_address": "1 Customer Drive, Bentonville, 72716, United States",
+        "latitude": 36.3643435,
+        "longitude": -94.1947297,
+        "employees": 2100000,
+        "website": "https://www.stock.walmart.com"
+    },
+    "MA": {
+        "full_address": "2000 Purchase Street, Purchase, 10577, United States",
+        "latitude": 41.0253802,
+        "longitude": -73.7131634,
+        "employees": 39800,
+        "website": "https://www.mastercard.com"
+    },
+    "XOM": {
+        "full_address": "22777 Springwoods Village Parkway, Spring, 77389-1425, United States",
+        "latitude": 30.1032424,
+        "longitude": -95.4461518,
+        "employees": 57900,
+        "website": "https://corporate.exxonmobil.com"
+    },
+    "HD": {
+        "full_address": "2455 Paces Ferry Road, Atlanta, 30339, United States",
+        "latitude": 33.8588031,
+        "longitude": -84.4544925,
+        "employees": 470000,
+        "website": "https://www.homedepot.com"
+    },
+    "PG": {
+        "full_address": "One Procter & Gamble Plaza, Cincinnati, 45202, United States",
+        "latitude": 39.10304,
+        "longitude": -84.5075818,
+        "employees": 109000,
+        "website": "https://www.pginvestor.com"
+    },
+    "ORCL": {
+        "full_address": "2300 Oracle Way, Austin, 78741, United States",
+        "latitude": 30.243505,
+        "longitude": -97.721831,
+        "employees": "",
+        "website": "https://www.oracle.com"
+    },
+    "COST": {
+        "full_address": "999 Lake Drive, Issaquah, 98027, United States",
+        "latitude": 47.5486034,
+        "longitude": -122.0506179,
+        "employees": 341000,
+        "website": "https://www.costco.com"
+    },
+    "NFLX": {
+        "full_address": "121 Albright Way, Los Gatos, 95032, United States",
+        "latitude": 37.2569243,
+        "longitude": -121.9639389,
+        "employees": 16000,
+        "website": "https://www.netflix.com"
+    },
+    "AMD": {
+        "full_address": "2485 Augustine Drive, Santa Clara, 95054, United States",
+        "latitude": 37.3829605,
+        "longitude": -121.9703774,
+        "employees": 31000,
+        "website": "https://www.amd.com"
+    },
+    "MRK": {
+        "full_address": "126 East Lincoln Avenue, Rahway, 07065, United States",
+        "latitude": 40.6099469,
+        "longitude": -74.258659,
+        "employees": 73000,
+        "website": "https://www.merck.com"
+    },
+    "ABBV": {
+        "full_address": "1 North Waukegan Road, North Chicago, 60064-6400, United States",
+        "latitude": 42.3015593,
+        "longitude": -87.8902499,
+        "employees": 57000,
+        "website": "https://www.abbvie.com"
+    },
+    "CRM": {
+        "full_address": "Salesforce Tower, San Francisco, 94105, United States",
+        "latitude": 37.7897744,
+        "longitude": -122.3969321,
+        "employees": 83334,
+        "website": "https://www.salesforce.com"
+    },
+    "BAC": {
+        "full_address": "Bank of America Corporate Center, Charlotte, 28255, United States",
+        "latitude": 35.2273122,
+        "longitude": -80.8422255,
+        "employees": 212000,
+        "website": "https://www.bankofamerica.com"
+    },
+    "PEP": {
+        "full_address": "700 Anderson Hill Road, Purchase, 10577, United States",
+        "latitude": 41.0348634,
+        "longitude": -73.6928308,
+        "employees": 306000,
+        "website": "https://www.pepsico.com"
+    },
+    "ADBE": {
+        "full_address": "345 Park Avenue, San Jose, 95110-2704, United States",
+        "latitude": 37.3294709,
+        "longitude": -121.8947723,
+        "employees": 31360,
+        "website": "https://www.adobe.com"
+    },
+    "KO": {
+        "full_address": "One Coca-Cola Plaza, Atlanta, 30313, United States",
+        "latitude": 33.7708677,
+        "longitude": -84.3966253,
+        "employees": 65900,
+        "website": "https://www.coca-colacompany.com"
+    },
+    "CVX": {
+        "full_address": "1400 Smith Street, Houston, 77002-7327, United States",
+        "latitude": 29.755578,
+        "longitude": -95.3718129,
+        "employees": 43039,
+        "website": "https://www.chevron.com"
+    },
+    "TMO": {
+        "full_address": "168 Third Avenue, Waltham, 02451, United States",
+        "latitude": 42.3922706,
+        "longitude": -71.2611867,
+        "employees": 125000,
+        "website": "https://www.thermofisher.com"
+    },
+    "ACN": {
+        "full_address": "1 Grand Canal Square, Dublin, D02 P820, Ireland",
+        "latitude": 53.3434225,
+        "longitude": -6.2391893,
+        "employees": 799000,
+        "website": "https://www.accenture.com"
+    },
+    "WFC": {
+        "full_address": "333 Market Street, San Francisco, 94105, United States",
+        "latitude": 37.7919383,
+        "longitude": -122.3974036,
+        "employees": 200999,
+        "website": "https://www.wellsfargo.com"
+    },
+    "CSCO": {
+        "full_address": "170 West Tasman Drive, San Jose, 95134-1706, United States",
+        "latitude": 37.4083584,
+        "longitude": -121.9540909,
+        "employees": 86200,
+        "website": "https://www.cisco.com"
+    },
+    "QCOM": {
+        "full_address": "5775 Morehouse Drive, San Diego, 92121-1714, United States",
+        "latitude": 32.8959414,
+        "longitude": -117.1958195,
+        "employees": 52000,
+        "website": "https://www.qualcomm.com"
+    },
+    "MCD": {
+        "full_address": "110 North Carpenter Street, Chicago, 60607, United States",
+        "latitude": 41.8839897,
+        "longitude": -87.6538477,
+        "employees": 150000,
+        "website": "https://www.mcdonalds.com"
+    },
+    "GE": {
+        "full_address": "1 Neumann Way, Evendale, 45215, United States",
+        "latitude": 39.2454383,
+        "longitude": -84.4460141,
+        "employees": 57000,
+        "website": "https://www.geaerospace.com"
+    },
+    "INTU": {
+        "full_address": "2700 Coast Avenue, Mountain View, 94043, United States",
+        "latitude": 37.4304208,
+        "longitude": -122.0968582,
+        "employees": 18200,
+        "website": "https://www.intuit.com"
+    },
+    "DIS": {
+        "full_address": "500 South Buena Vista Street, Burbank, 91521, United States",
+        "latitude": 34.1551262,
+        "longitude": -118.3265025,
+        "employees": 175560,
+        "website": "https://thewaltdisneycompany.com"
+    },
+    "INTC": {
+        "full_address": "2200 Mission College Boulevard, Santa Clara, 95054-1549, United States",
+        "latitude": 37.3882663,
+        "longitude": -121.963779,
+        "employees": 85100,
+        "website": "https://www.intel.com"
+    },
+    "CAT": {
+        "full_address": "5205 N. O'Connor Boulevard, Irving, 75039, United States",
+        "latitude": 32.8697645,
+        "longitude": -96.9394928,
+        "employees": 118000,
+        "website": "https://www.caterpillar.com"
+    },
+    "TXN": {
+        "full_address": "12500 TI Boulevard, Dallas, 75243, United States",
+        "latitude": 32.910586,
+        "longitude": -96.758035,
+        "employees": 33000,
+        "website": "https://www.ti.com"
+    },
+    "VZ": {
+        "full_address": "1095 Avenue of the Americas, New York, 10036, United States",
+        "latitude": 40.7546492,
+        "longitude": -73.9848112,
+        "employees": 99600,
+        "website": "https://www.verizon.com"
+    },
+    "AMGN": {
+        "full_address": "One Amgen Center Drive, Thousand Oaks, 91320-1799, United States",
+        "latitude": 34.1910399,
+        "longitude": -118.9206609,
+        "employees": 31500,
+        "website": "https://www.amgen.com"
+    },
+    "IBM": {
+        "full_address": "One New Orchard Road, Armonk, 10504, United States",
+        "latitude": 41.1095893,
+        "longitude": -73.7239304,
+        "employees": 264300,
+        "website": "https://www.ibm.com"
+    },
+    "AXP": {
+        "full_address": "200 Vesey Street, New York, 10285, United States",
+        "latitude": 40.7136414,
+        "longitude": -74.0148204,
+        "employees": 76800,
+        "website": "https://www.americanexpress.com"
+    },
+    "ABT": {
+        "full_address": "100 Abbott Park Road, Abbott Park, 60064-6400, United States",
+        "latitude": 42.3010531,
+        "longitude": -87.8955374,
+        "employees": 122000,
+        "website": "https://www.abbott.com"
+    },
+    "ACGL": {
+        "full_address": "Waterloo House, Pembroke, HM 08, Bermuda",
+        "latitude": 32.2909062,
+        "longitude": -64.7900486,
+        "employees": 8000,
+        "website": "https://www.archgroup.com"
+    },
+    "ADSK": {
+        "full_address": "One Market Street, San Francisco, 94105, United States",
+        "latitude": 37.7920877,
+        "longitude": -122.3978511,
+        "employees": 14300,
+        "website": "https://www.autodesk.com"
+    },
+    "AEE": {
+        "full_address": "1901 Chouteau Avenue, Saint Louis, 63103, United States",
+        "latitude": 38.6224983,
+        "longitude": -90.2092261,
+        "employees": 8913,
+        "website": "https://www.amereninvestors.com"
+    },
+    "AEP": {
+        "full_address": "1 Riverside Plaza, Columbus, 43215-2373, United States",
+        "latitude": 39.9650746,
+        "longitude": -83.0054418,
+        "employees": 17581,
+        "website": "https://www.aep.com"
+    },
+    "AES": {
+        "full_address": "4300 Wilson Boulevard, Arlington, 22203, United States",
+        "latitude": 38.8798838,
+        "longitude": -77.1125428,
+        "employees": 8336,
+        "website": "https://www.aes.com"
+    },
+    "AFL": {
+        "full_address": "1932 Wynnton Road, Columbus, 31999-7251, United States",
+        "latitude": 32.4680084,
+        "longitude": -84.9642553,
+        "employees": 12716,
+        "website": "https://www.aflac.com"
+    },
+    "A": {
+        "full_address": "5301 Stevens Creek Boulevard, Santa Clara, 95051, United States",
+        "latitude": 37.325462,
+        "longitude": -121.999033,
+        "employees": 18000,
+        "website": "https://www.agilent.com"
+    },
+    "AGCO": {
+        "full_address": "4205 River Green Parkway, Duluth, 30096-2568, United States",
+        "latitude": 34.0161685,
+        "longitude": -84.1630149,
+        "employees": 22000,
+        "website": "https://www.agcocorp.com"
+    },
+    "AIG": {
+        "full_address": "1271 Avenue of the Americas, New York, 10020, United States",
+        "latitude": 40.7606976,
+        "longitude": -73.9811755,
+        "employees": 22100,
+        "website": "https://www.aig.com"
+    },
+    "AIZ": {
+        "full_address": "260 Interstate North Circle SE, Atlanta, 30339-2210, United States",
+        "latitude": 33.9001722,
+        "longitude": -84.4633765,
+        "employees": 14800,
+        "website": "https://www.assurant.com"
+    },
+    "AJG": {
+        "full_address": "2850 Golf Road, Rolling Meadows, 60008-4050, United States",
+        "latitude": 42.0536623,
+        "longitude": -88.0168709,
+        "employees": 72373,
+        "website": "https://www.ajg.com"
+    },
+    "AKAM": {
+        "full_address": "145 Broadway, Cambridge, 02142, United States",
+        "latitude": 42.3649728,
+        "longitude": -71.0887559,
+        "employees": 11419,
+        "website": "https://www.akamai.com"
+    },
+    "ALB": {
+        "full_address": "4250 Congress Street, Charlotte, 28209, United States",
+        "latitude": 35.1552442,
+        "longitude": -80.8376361,
+        "employees": 7800,
+        "website": "https://www.albemarle.com"
+    },
+    "ALGN": {
+        "full_address": "410 North Scottsdale Road, Tempe, 85288, United States",
+        "latitude": 33.4332657,
+        "longitude": -111.9273239,
+        "employees": 20275,
+        "website": "https://www.aligntech.com"
+    },
+    "ALL": {
+        "full_address": "3100 Sanders Road, Northbrook, 60062, United States",
+        "latitude": 42.0968402,
+        "longitude": -87.8765835,
+        "employees": 53000,
+        "website": "https://www.allstate.com"
+    },
+    "AMCR": {
+        "full_address": "Thurgauerstrasse 34, Zurich, 8050, Switzerland",
+        "latitude": 47.4135911,
+        "longitude": 8.5513959,
+        "employees": 77000,
+        "website": "https://www.amcor.com"
+    },
+    "AME": {
+        "full_address": "1100 Cassatt Road, Berwyn, 19312-1177, United States",
+        "latitude": 40.0617792,
+        "longitude": -75.4634567,
+        "employees": 22500,
+        "website": "https://www.ametek.com"
+    },
+    "AMT": {
+        "full_address": "222 Berkeley Street, Boston, 02116, United States",
+        "latitude": 42.3514077,
+        "longitude": -71.0730278,
+        "employees": 4866,
+        "website": "https://www.americantower.com"
+    },
+    "AON": {
+        "full_address": "15 George's Quay, Dublin, D02 VR98, Ireland",
+        "latitude": 53.3474699,
+        "longitude": -6.2544492,
+        "employees": 60000,
+        "website": "https://www.aon.com"
+    },
+    "AOS": {
+        "full_address": "11270 West Park Place, Milwaukee, 53224, United States",
+        "latitude": 43.1514839,
+        "longitude": -88.0516384,
+        "employees": 11500,
+        "website": "https://www.aosmith.com"
+    },
+    "APA": {
+        "full_address": "2000 W. Sam Houston Pkwy. S., Houston, 77042-3643, United States",
+        "latitude": 29.7462013,
+        "longitude": -95.5596306,
+        "employees": 1791,
+        "website": "https://www.apacorp.com"
+    },
+    "APH": {
+        "full_address": "358 Hall Avenue, Wallingford, 06492, United States",
+        "latitude": 41.4603453,
+        "longitude": -72.8330835,
+        "employees": 170000,
+        "website": "https://www.amphenol.com"
+    },
+    "APTV": {
+        "full_address": "Spitalstrasse 5, Schaffhausen, 8200, Switzerland",
+        "latitude": 47.6982627,
+        "longitude": 8.6316463,
+        "employees": 140000,
+        "website": "https://www.aptiv.com"
+    },
+    "ARE": {
+        "full_address": "26 North Euclid Avenue, Pasadena, 91101-6104, United States",
+        "latitude": 34.1463247,
+        "longitude": -118.1430246,
+        "employees": 514,
+        "website": "https://www.are.com"
+    },
+    "AVY": {
+        "full_address": "8080 Norton Parkway, Mentor, 44060, United States",
+        "latitude": 41.6484828,
+        "longitude": -81.3494977,
+        "employees": 35000,
+        "website": "https://www.averydennison.com"
+    },
+    "AWK": {
+        "full_address": "1 Water Street, Camden, 08102-1658, United States",
+        "latitude": 39.9508457,
+        "longitude": -75.1304704,
+        "employees": 7000,
+        "website": "https://www.amwater.com"
+    },
+    "AZO": {
+        "full_address": "123 South Front Street, Memphis, 38103, United States",
+        "latitude": 35.1421832,
+        "longitude": -90.055979,
+        "employees": 78000,
+        "website": "https://www.autozone.com"
+    },
+    "BA": {
+        "full_address": "929 Long Bridge Drive, Arlington, 22202-4208, United States",
+        "latitude": 38.8645633,
+        "longitude": -77.0501894,
+        "employees": 182000,
+        "website": "https://www.boeing.com"
+    },
+    "BALL": {
+        "full_address": "9200 West 108th Circle, Westminster, 80021, United States",
+        "latitude": 39.8974765,
+        "longitude": -105.1059292,
+        "employees": 16000,
+        "website": "https://www.ball.com"
+    },
+    "BBY": {
+        "full_address": "7601 Penn Avenue South, Richfield, 55423, United States",
+        "latitude": 44.8640169,
+        "longitude": -93.3065797,
+        "employees": 82000,
+        "website": "https://corporate.bestbuy.com"
+    },
+    "BDX": {
+        "full_address": "1 Becton Drive, Franklin Lakes, 07417-1880, United States",
+        "latitude": 41.0129823,
+        "longitude": -74.2039276,
+        "employees": 60000,
+        "website": "https://www.bd.com"
+    },
+    "BEN": {
+        "full_address": "One Franklin Parkway, San Mateo, 94403, United States",
+        "latitude": 37.5406678,
+        "longitude": -122.2948719,
+        "employees": 10000,
+        "website": "https://www.franklinresources.com"
+    },
+    "BF-B": {
+        "full_address": "850 Dixie Highway, Louisville, 40210, United States",
+        "latitude": 38.2447449,
+        "longitude": -85.7855264,
+        "employees": 4900,
+        "website": "https://www.brown-forman.com"
+    },
+    "BG": {
+        "full_address": "1391 Timberlake Manor Parkway, Chesterfield, 63017, United States",
+        "latitude": 38.6483406,
+        "longitude": -90.5306085,
+        "employees": 34000,
+        "website": "https://www.bunge.com"
+    },
+    "BIIB": {
+        "full_address": "225 Binney Street, Cambridge, 02142, United States",
+        "latitude": 42.3664031,
+        "longitude": -71.0852265,
+        "employees": 7500,
+        "website": "https://www.biogen.com"
+    },
+    "BIO": {
+        "full_address": "1000 Alfred Nobel Drive, Hercules, 94547, United States",
+        "latitude": 38.022691,
+        "longitude": -122.277059,
+        "employees": 7450,
+        "website": "https://www.bio-rad.com"
+    },
+    "BK": {
+        "full_address": "240 Greenwich Street, New York, 10286, United States",
+        "latitude": 40.714195,
+        "longitude": -74.011673,
+        "employees": 47200,
+        "website": "https://www.bny.com"
+    },
+    "BKNG": {
+        "full_address": "800 Connecticut Avenue, Norwalk, 06854, United States",
+        "latitude": 41.0932565,
+        "longitude": -73.4541467,
+        "employees": 24900,
+        "website": "https://www.bookingholdings.com"
+    },
+    "BKR": {
+        "full_address": "575 North Dairy Ashford Road, Houston, 77079-1121, United States",
+        "latitude": 29.7867411,
+        "longitude": -95.6153284,
+        "employees": 53000,
+        "website": "https://www.bakerhughes.com"
+    },
+    "BLDR": {
+        "full_address": "6031 Connection Drive, Irving, 75039, United States",
+        "latitude": 32.8943592,
+        "longitude": -96.9665586,
+        "employees": 28000,
+        "website": "https://www.bldr.com"
+    },
+    "BLK": {
+        "full_address": "50 Hudson Yards, New York, 10001, United States",
+        "latitude": 40.7545193,
+        "longitude": -74.0001188,
+        "employees": 25400,
+        "website": "https://www.blackrock.com"
+    },
+    "BR": {
+        "full_address": "5 Dakota Drive, Lake Success, 11042, United States",
+        "latitude": 40.7620035,
+        "longitude": -73.6907331,
+        "employees": 15000,
+        "website": "https://www.broadridge.com"
+    },
+    "BRO": {
+        "full_address": "300 North Beach Street, Daytona Beach, 32114, United States",
+        "latitude": 29.2170771,
+        "longitude": -81.0220331,
+        "employees": 22888,
+        "website": "https://www.bbrown.com"
+    },
+    "BSX": {
+        "full_address": "300 Boston Scientific Way, Marlborough, 01752-1234, United States",
+        "latitude": 42.3612451,
+        "longitude": -71.5616206,
+        "employees": 59000,
+        "website": "https://www.bostonscientific.com"
+    },
+    "BWA": {
+        "full_address": "3850 Hamlin Road, Auburn Hills, 48326, United States",
+        "latitude": 42.646479,
+        "longitude": -83.212294,
+        "employees": 37500,
+        "website": "https://www.borgwarner.com"
+    },
+    "BXP": {
+        "full_address": "Prudential Center, 800 Boylston Street, Boston, 02199-8103, United States",
+        "latitude": 42.3470908,
+        "longitude": -71.081655,
+        "employees": 826,
+        "website": "https://www.bxp.com"
+    },
+    "C": {
+        "full_address": "388 Greenwich Street, New York, 10013, United States",
+        "latitude": 40.7206458,
+        "longitude": -74.0111721,
+        "employees": 224000,
+        "website": "https://www.citigroup.com"
+    },
+    "CAG": {
+        "full_address": "222 West Merchandise Mart Plaza, Chicago, 60654, United States",
+        "latitude": 41.8888053,
+        "longitude": -87.6344719,
+        "employees": 18300,
+        "website": "https://www.conagrabrands.com"
+    },
+    "CAH": {
+        "full_address": "7000 Cardinal Place, Dublin, 43017, United States",
+        "latitude": 40.110128,
+        "longitude": -83.117655,
+        "employees": 53084,
+        "website": "https://www.cardinalhealth.com"
+    },
+    "CARR": {
+        "full_address": "13995 Pasteur Boulevard, Palm Beach Gardens, 33418, United States",
+        "latitude": 26.8821445,
+        "longitude": -80.12284,
+        "employees": 47000,
+        "website": "https://www.carrier.com"
+    },
+    "CBOE": {
+        "full_address": "433 West Van Buren Street, Chicago, 60607, United States",
+        "latitude": 41.8759856,
+        "longitude": -87.6387645,
+        "employees": 1661,
+        "website": "https://www.cboe.com"
+    },
+    "CBRE": {
+        "full_address": "2121 North Pearl Street, Dallas, 75201, United States",
+        "latitude": 32.790866,
+        "longitude": -96.8012551,
+        "employees": 155000,
+        "website": "https://www.cbre.com"
+    },
+    "CCI": {
+        "full_address": "8020 Katy Freeway, Houston, 77024-1908, United States",
+        "latitude": 29.783217,
+        "longitude": -95.4824752,
+        "employees": 1500,
+        "website": "https://www.crowncastle.com"
+    },
+    "CCK": {
+        "full_address": "14025 Riveredge Drive, Tampa, 33637-2015, United States",
+        "latitude": 28.0741261,
+        "longitude": -82.3578555,
+        "employees": 23000,
+        "website": "https://www.crowncork.com"
+    },
+    "CDNS": {
+        "full_address": "Building 5, San Jose, 95134, United States",
+        "latitude": 37.400416,
+        "longitude": -121.9254051,
+        "employees": 15110,
+        "website": "https://www.cadence.com"
+    },
+    "CDW": {
+        "full_address": "200 N. Milwaukee Avenue, Vernon Hills, 60061, United States",
+        "latitude": 42.2292241,
+        "longitude": -87.9436658,
+        "employees": 14800,
+        "website": "https://www.cdw.com"
+    },
+    "CE": {
+        "full_address": "222 W. Las Colinas Blvd., Irving, 75039-5421, United States",
+        "latitude": 32.8711299,
+        "longitude": -96.9425572,
+        "employees": 11000,
+        "website": "https://www.celanese.com"
+    },
+    "CEG": {
+        "full_address": "1310 Point Street, Baltimore, 21231-3380, United States",
+        "latitude": 39.2804906,
+        "longitude": -76.5976044,
+        "employees": 15291,
+        "website": "https://www.constellationenergy.com"
+    },
+    "CFG": {
+        "full_address": "One Citizens Plaza, Providence, 02903, United States",
+        "latitude": 41.8274821,
+        "longitude": -71.4107573,
+        "employees": 17380,
+        "website": "https://www.citizensbank.com"
+    },
+    "CHD": {
+        "full_address": "Princeton South Corporate Center, Ewing, 08628, United States",
+        "latitude": 40.2873695,
+        "longitude": -74.7916305,
+        "employees": 5550,
+        "website": "https://www.churchdwight.com"
+    },
+    "CHRW": {
+        "full_address": "14701 Charlson Road, Eden Prairie, 55347, United States",
+        "latitude": 44.824085,
+        "longitude": -93.467547,
+        "employees": 11705,
+        "website": "https://www.chrobinson.com"
+    },
+    "CHTR": {
+        "full_address": "400 Washington Blvd., Stamford, 06902, United States",
+        "latitude": 41.044873,
+        "longitude": -73.543086,
+        "employees": 91900,
+        "website": "https://corporate.charter.com"
+    },
+    "CI": {
+        "full_address": "900 Cottage Grove Road, Bloomfield, 06002, United States",
+        "latitude": 41.8129234,
+        "longitude": -72.7432083,
+        "employees": 65669,
+        "website": "https://www.thecignagroup.com"
+    },
+    "CINF": {
+        "full_address": "6200 South Gilmore Road, Fairfield, 45014-5141, United States",
+        "latitude": 39.309395,
+        "longitude": -84.523119,
+        "employees": 5705,
+        "website": "https://www.cinfin.com"
+    },
+    "CL": {
+        "full_address": "300 Park Avenue, New York, 10022-7499, United States",
+        "latitude": 40.7570541,
+        "longitude": -73.9747565,
+        "employees": 33600,
+        "website": "https://www.colgatepalmolive.com"
+    },
+    "CLX": {
+        "full_address": "1221 Broadway, Oakland, 94612-1888, United States",
+        "latitude": 37.8034727,
+        "longitude": -122.272327,
+        "employees": 7600,
+        "website": "https://www.thecloroxcompany.com"
+    },
+    "CMG": {
+        "full_address": "610 Newport Center Drive, Newport Beach, 92660, United States",
+        "latitude": 33.6183314,
+        "longitude": -117.872528,
+        "employees": 135000,
+        "website": "https://www.chipotle.com"
+    },
+    "CMI": {
+        "full_address": "500 Jackson Street, Columbus, 47202-3005, United States",
+        "latitude": 39.2039719,
+        "longitude": -85.9228837,
+        "employees": 67400,
+        "website": "https://www.cummins.com"
+    },
+    "CMS": {
+        "full_address": "One Energy Plaza, Jackson, 49201, United States",
+        "latitude": 42.2466745,
+        "longitude": -84.4022893,
+        "employees": 8350,
+        "website": "https://www.cmsenergy.com"
+    },
+    "CNP": {
+        "full_address": "1111 Louisiana Street, Houston, 77002, United States",
+        "latitude": 29.7571299,
+        "longitude": -95.3679866,
+        "employees": 8794,
+        "website": "https://www.centerpointenergy.com"
+    },
+    "COF": {
+        "full_address": "1680 Capital One Drive, McLean, 22102, United States",
+        "latitude": 38.9242279,
+        "longitude": -77.2134433,
+        "employees": 77100,
+        "website": "https://www.capitalone.com"
+    },
+    "COO": {
+        "full_address": "6101 Bollinger Canyon Road, San Ramon, 94583, United States",
+        "latitude": 37.762455,
+        "longitude": -121.95722,
+        "employees": 15000,
+        "website": "https://www.coopercos.com"
+    },
+    "COP": {
+        "full_address": "925 North Eldridge Parkway, Houston, 77079-2703, United States",
+        "latitude": 29.7833518,
+        "longitude": -95.6178012,
+        "employees": 9700,
+        "website": "https://www.conocophillips.com"
+    },
+    "CPB": {
+        "full_address": "1 Campbell Place, Camden, 08103-1799, United States",
+        "latitude": 39.9397316,
+        "longitude": -75.1083784,
+        "employees": 13700,
+        "website": "https://www.thecampbellscompany.com"
+    },
+    "CPRT": {
+        "full_address": "14185 Dallas Parkway, Dallas, 75254, United States",
+        "latitude": 32.9390795,
+        "longitude": -96.8226586,
+        "employees": 13800,
+        "website": "https://www.copart.com"
+    },
+    "CPT": {
+        "full_address": "2800 Post Oak Boulevard, Houston, 77056, United States",
+        "latitude": 29.7373,
+        "longitude": -95.4612679,
+        "employees": 1640,
+        "website": "https://www.camdenliving.com"
+    },
+    "CRL": {
+        "full_address": "251 Ballardvale Street, Wilmington, 01887, United States",
+        "latitude": 42.5954551,
+        "longitude": -71.1579323,
+        "employees": 18300,
+        "website": "https://www.criver.com"
+    },
+    "CRWD": {
+        "full_address": "206 East 9th Street, Austin, 78701, United States",
+        "latitude": 30.2705927,
+        "longitude": -97.7397399,
+        "employees": 11157,
+        "website": "https://www.crowdstrike.com"
+    },
+    "CSGP": {
+        "full_address": "1201 Wilson Blvd, Arlington, 22209, United States",
+        "latitude": 38.8949492,
+        "longitude": -77.0715922,
+        "employees": 8441,
+        "website": "https://www.costargroup.com"
+    },
+    "CSX": {
+        "full_address": "500 Water Street, Jacksonville, 32202, United States",
+        "latitude": 30.3245086,
+        "longitude": -81.6641398,
+        "employees": 22200,
+        "website": "https://www.csx.com"
+    },
+    "CTVA": {
+        "full_address": "9330 Zionsville Road, Indianapolis, 46268, United States",
+        "latitude": 39.9221792,
+        "longitude": -86.2623123,
+        "employees": 21500,
+        "website": "https://www.corteva.com"
+    },
+    "CZR": {
+        "full_address": "100 West Liberty Street, Reno, 89501, United States",
+        "latitude": 39.5211384,
+        "longitude": -119.8127282,
+        "employees": 50000,
+        "website": "https://www.caesars.com"
+    },
+    "D": {
+        "full_address": "600 East Canal Street, Richmond, 23219, United States",
+        "latitude": 37.5382689,
+        "longitude": -77.4397524,
+        "employees": 15200,
+        "website": "https://www.dominionenergy.com"
+    },
+    "DAL": {
+        "full_address": "1030 Delta Boulevard, Atlanta, 30354-1989, United States",
+        "latitude": 33.6581071,
+        "longitude": -84.422993,
+        "employees": 103000,
+        "website": "https://www.delta.com"
+    },
+    "DG": {
+        "full_address": "100 Mission Ridge, Goodlettsville, 37072, United States",
+        "latitude": 36.308947,
+        "longitude": -86.6991285,
+        "employees": 194000,
+        "website": "https://www.dollargeneral.com"
+    },
+    "DGX": {
+        "full_address": "500 Plaza Drive, Secaucus, 07094, United States",
+        "latitude": 40.7879322,
+        "longitude": -74.0447826,
+        "employees": 57000,
+        "website": "https://www.questdiagnostics.com"
+    },
+    "DHI": {
+        "full_address": "1341 Horton Circle, Arlington, 76011, United States",
+        "latitude": 32.760835,
+        "longitude": -97.0908883,
+        "employees": 14341,
+        "website": "https://www.drhorton.com"
+    },
+    "DLR": {
+        "full_address": "601 West 2nd Street, Austin, 78701, United States",
+        "latitude": 30.265617,
+        "longitude": -97.7504086,
+        "employees": 4282,
+        "website": "https://www.digitalrealty.com"
+    },
+    "DLTR": {
+        "full_address": "500 Volvo Parkway, Chesapeake, 23320, United States",
+        "latitude": 36.7683132,
+        "longitude": -76.2418329,
+        "employees": 150000,
+        "website": "https://www.dollartree.com"
+    },
+    "DOV": {
+        "full_address": "3005 Highland Parkway, Downers Grove, 60515, United States",
+        "latitude": 41.8333193,
+        "longitude": -88.0075737,
+        "employees": 24000,
+        "website": "https://www.dovercorporation.com"
+    },
+    "DOW": {
+        "full_address": "2211 H.H. Dow Way, Midland, 48674, United States",
+        "latitude": 43.6150102,
+        "longitude": -84.1990362,
+        "employees": 34600,
+        "website": "https://www.dow.com"
+    },
+    "DPZ": {
+        "full_address": "30 Frank Lloyd Wright Drive, Ann Arbor, 48105, United States",
+        "latitude": 42.3171455,
+        "longitude": -83.6824566,
+        "employees": 6200,
+        "website": "https://biz.dominos.com"
+    },
+    "DUK": {
+        "full_address": "525 South Tryon Street, Charlotte, 28202, United States",
+        "latitude": 35.2232869,
+        "longitude": -80.8474645,
+        "employees": 26441,
+        "website": "https://www.duke-energy.com"
+    },
+    "DVA": {
+        "full_address": "2000 16th Street, Denver, 80202, United States",
+        "latitude": 39.7529194,
+        "longitude": -105.0039285,
+        "employees": 78000,
+        "website": "https://www.davita.com"
+    },
+    "DXCM": {
+        "full_address": "6340 Sequence Drive, San Diego, 92121, United States",
+        "latitude": 32.9069589,
+        "longitude": -117.1859864,
+        "employees": 11000,
+        "website": "https://www.dexcom.com"
+    },
+    "EA": {
+        "full_address": "209 Redwood Shores Parkway, Redwood City, 94065, United States",
+        "latitude": 37.5228311,
+        "longitude": -122.254489,
+        "employees": 14600,
+        "website": "https://www.ea.com"
+    },
+    "EBAY": {
+        "full_address": "2025 Hamilton Avenue, San Jose, 95125, United States",
+        "latitude": 37.2951544,
+        "longitude": -121.9261317,
+        "employees": 12300,
+        "website": "https://www.ebayinc.com"
+    },
+    "ECL": {
+        "full_address": "1 Ecolab Place, Saint Paul, 55102-2233, United States",
+        "latitude": 44.9467976,
+        "longitude": -93.0982227,
+        "employees": 48000,
+        "website": "https://www.ecolab.com"
+    },
+    "ED": {
+        "full_address": "4 Irving Place, New York, 10003, United States",
+        "latitude": 40.7340674,
+        "longitude": -73.9879013,
+        "employees": 15407,
+        "website": "https://www.conedison.com"
+    },
+    "EG": {
+        "full_address": "Seon Place, Hamilton, HM 19, Bermuda",
+        "latitude": 32.2932639,
+        "longitude": -64.7780607,
+        "employees": 3064,
+        "website": "https://www.everestglobal.com"
+    },
+    "EIX": {
+        "full_address": "2244 Walnut Grove Avenue, Rosemead, 91770, United States",
+        "latitude": 34.0539391,
+        "longitude": -118.0818679,
+        "employees": 13725,
+        "website": "https://www.edison.com"
+    },
+    "EL": {
+        "full_address": "767 Fifth Avenue, New York, 10153, United States",
+        "latitude": 40.8021613,
+        "longitude": -73.9453686,
+        "employees": 40470,
+        "website": "https://www.elcompanies.com"
+    },
+    "ELV": {
+        "full_address": "220 Virginia Avenue, Indianapolis, 46204, United States",
+        "latitude": 39.7631664,
+        "longitude": -86.1508708,
+        "employees": 96129,
+        "website": "https://www.elevancehealth.com"
+    },
+    "EMN": {
+        "full_address": "200 South Wilcox Drive, Kingsport, 37662, United States",
+        "latitude": 36.533098,
+        "longitude": -82.551931,
+        "employees": 13000,
+        "website": "https://www.eastman.com"
+    },
+    "EMR": {
+        "full_address": "8027 Forsyth Boulevard, Saint Louis, 63105, United States",
+        "latitude": 38.6461998,
+        "longitude": -90.3034052,
+        "employees": 71000,
+        "website": "https://www.emerson.com"
+    },
+    "ENPH": {
+        "full_address": "47281 Bayside Parkway, Fremont, 94538, United States",
+        "latitude": 37.4751827,
+        "longitude": -121.9367655,
+        "employees": 2872,
+        "website": "https://www.enphase.com"
+    },
+    "EOG": {
+        "full_address": "1111 Bagby Street, Houston, 77002, United States",
+        "latitude": 29.7587831,
+        "longitude": -95.3707262,
+        "employees": 3400,
+        "website": "https://www.eogresources.com"
+    },
+    "EPAM": {
+        "full_address": "41 University Drive, Newtown, 18940, United States",
+        "latitude": 40.2229341,
+        "longitude": -74.9058805,
+        "employees": 62750,
+        "website": "https://www.epam.com"
+    },
+    "EQIX": {
+        "full_address": "One Lagoon Drive, Redwood City, 94065-1562, United States",
+        "latitude": 37.5275451,
+        "longitude": -122.2618297,
+        "employees": 13716,
+        "website": "https://www.equinix.com"
+    },
+    "EQT": {
+        "full_address": "625 Liberty Avenue, Pittsburgh, 15222, United States",
+        "latitude": 40.4424947,
+        "longitude": -80.0008102,
+        "employees": 1523,
+        "website": "https://www.eqt.com"
+    },
+    "ES": {
+        "full_address": "300 Cadwell Drive, Springfield, 01104, United States",
+        "latitude": 42.1514227,
+        "longitude": -72.5477536,
+        "employees": 10731,
+        "website": "https://www.eversource.com"
+    },
+    "ESS": {
+        "full_address": "1100 Park Place, San Mateo, 94403, United States",
+        "latitude": 37.5450351,
+        "longitude": -122.2910506,
+        "employees": 1686,
+        "website": "https://www.essexapartmenthomes.com"
+    },
+    "ETN": {
+        "full_address": "Eaton House, Dublin, D04 Y0C2, Ireland",
+        "latitude": 53.3115981,
+        "longitude": -6.282925,
+        "employees": 97303,
+        "website": "https://www.eaton.com"
+    },
+    "ETR": {
+        "full_address": "639 Loyola Avenue, New Orleans, 70113, United States",
+        "latitude": 29.9489047,
+        "longitude": -90.0768165,
+        "employees": 12000,
+        "website": "https://www.entergy.com"
+    },
+    "ETSY": {
+        "full_address": "117 Adams Street, Brooklyn, 11201, United States",
+        "latitude": 40.70051,
+        "longitude": -73.9882196,
+        "employees": 2375,
+        "website": "https://www.etsy.com"
+    },
+    "EVRG": {
+        "full_address": "1200 Main Street, Kansas City, 64105, United States",
+        "latitude": 39.0996422,
+        "longitude": -94.583793,
+        "employees": 4691,
+        "website": "https://investors.evergy.com"
+    },
+    "EW": {
+        "full_address": "One Edwards Way, Irvine, 92614, United States",
+        "latitude": 33.6986329,
+        "longitude": -117.8501723,
+        "employees": 16000,
+        "website": "https://www.edwards.com"
+    },
+    "EXC": {
+        "full_address": "10 South Dearborn Street, Chicago, 60680-5379, United States",
+        "latitude": 41.8816239,
+        "longitude": -87.6301402,
+        "employees": 20000,
+        "website": "https://www.exeloncorp.com"
+    },
+    "EXPE": {
+        "full_address": "1111 Expedia Group Way West, Seattle, 98119, United States",
+        "latitude": 47.6284196,
+        "longitude": -122.3748587,
+        "employees": 16000,
+        "website": "https://www.expediagroup.com"
+    },
+    "F": {
+        "full_address": "One American Road, Dearborn, 48126-1899, United States",
+        "latitude": 42.3144573,
+        "longitude": -83.2100807,
+        "employees": 168000,
+        "website": "https://www.ford.com"
+    },
+    "FANG": {
+        "full_address": "Fasken Center, Midland, 79701, United States",
+        "latitude": 31.998854,
+        "longitude": -102.0806286,
+        "employees": 1762,
+        "website": "https://www.diamondbackenergy.com"
+    },
+    "FAST": {
+        "full_address": "2001 Theurer Boulevard, Winona, 55987-1500, United States",
+        "latitude": 44.061924,
+        "longitude": -91.683035,
+        "employees": 21763,
+        "website": "https://www.fastenal.com"
+    },
+    "FCX": {
+        "full_address": "4340 E. Cotton Center Blvd., Phoenix, 85040-8852, United States",
+        "latitude": 33.4035428,
+        "longitude": -111.9891604,
+        "employees": 29000,
+        "website": "https://fcx.com"
+    },
+    "FDS": {
+        "full_address": "45 Glover Avenue, Norwalk, 06850, United States",
+        "latitude": 41.1439759,
+        "longitude": -73.4288759,
+        "employees": 12840,
+        "website": "https://www.factset.com"
+    },
+    "FDX": {
+        "full_address": "942 South Shady Grove Road, Memphis, 38120, United States",
+        "latitude": 35.105625,
+        "longitude": -89.8582318,
+        "employees": 300000,
+        "website": "https://www.fedex.com"
+    },
+    "FE": {
+        "full_address": "341 White Pond Drive, Akron, 44320, United States",
+        "latitude": 41.103639,
+        "longitude": -81.579604,
+        "employees": 11186,
+        "website": "https://www.firstenergycorp.com"
+    },
+    "FFIV": {
+        "full_address": "801 5th Avenue, Seattle, 98104, United States",
+        "latitude": 47.6054786,
+        "longitude": -122.3313101,
+        "employees": 6512,
+        "website": "https://www.f5.com"
+    },
+    "FITB": {
+        "full_address": "38 Fountain Square Plaza, Cincinnati, 45263, United States",
+        "latitude": 39.1017152,
+        "longitude": -84.5118358,
+        "employees": 25980,
+        "website": "https://www.53.com"
+    },
+    "FOXA": {
+        "full_address": "1211 Avenue of the Americas, New York, 10036, United States",
+        "latitude": 40.7586695,
+        "longitude": -73.9823756,
+        "employees": 10400,
+        "website": "https://www.foxcorporation.com"
+    },
+    "FOX": {
+        "full_address": "1211 Avenue of the Americas, New York, 10036, United States",
+        "latitude": 40.7586695,
+        "longitude": -73.9823756,
+        "employees": 10400,
+        "website": "https://www.foxcorporation.com"
+    },
+    "FRT": {
+        "full_address": "909 Rose Avenue, North Bethesda, 20852-4041, United States",
+        "latitude": 39.0510817,
+        "longitude": -77.1158461,
+        "employees": 314,
+        "website": "https://www.federalrealty.com"
+    },
+    "FSLR": {
+        "full_address": "4300 E Camelback Road, Phoenix, 85018, United States",
+        "latitude": 33.5109258,
+        "longitude": -111.988263,
+        "employees": 7900,
+        "website": "https://www.firstsolar.com"
+    },
+    "FTNT": {
+        "full_address": "909 Kifer Road, Sunnyvale, 94086, United States",
+        "latitude": 37.3763538,
+        "longitude": -122.0189126,
+        "employees": 15311,
+        "website": "https://www.fortinet.com"
+    },
+    "FTV": {
+        "full_address": "6920 Seaway Boulevard, Everett, 98203, United States",
+        "latitude": 47.9369737,
+        "longitude": -122.2664812,
+        "employees": 10000,
+        "website": "https://www.fortive.com"
+    },
+    "GD": {
+        "full_address": "11011 Sunset Hills Road, Reston, 20190, United States",
+        "latitude": 38.9469296,
+        "longitude": -77.3282692,
+        "employees": 110000,
+        "website": "https://www.gd.com"
+    },
+    "GDDY": {
+        "full_address": "100 S. Mill Ave, Tempe, 85281, United States",
+        "latitude": 33.4293402,
+        "longitude": -111.9402828,
+        "employees": 5845,
+        "website": "https://www.godaddy.com"
+    },
+    "GEHC": {
+        "full_address": "500 West Monroe Street, Chicago, 60661, United States",
+        "latitude": 41.8807836,
+        "longitude": -87.6408671,
+        "employees": 54000,
+        "website": "https://www.gehealthcare.com"
+    },
+    "GEN": {
+        "full_address": "60 East Rio Salado Parkway, Tempe, 85281, United States",
+        "latitude": 33.4312197,
+        "longitude": -111.9394709,
+        "employees": 3900,
+        "website": "https://www.gendigital.com"
+    },
+    "GILD": {
+        "full_address": "333 Lakeside Drive, Foster City, 94404, United States",
+        "latitude": 37.5662211,
+        "longitude": -122.2828521,
+        "employees": 17000,
+        "website": "https://www.gilead.com"
+    },
+    "GL": {
+        "full_address": "7677 Henneman Way, McKinney, 75070, United States",
+        "latitude": 33.1419205,
+        "longitude": -96.6924579,
+        "employees": 3695,
+        "website": "https://home.globelifeinsurance.com"
+    },
+    "GM": {
+        "full_address": "1240 Woodward Avenue, Detroit, 48265, United States",
+        "latitude": 42.3332665,
+        "longitude": -83.0479797,
+        "employees": 156000,
+        "website": "https://www.gm.com"
+    },
+    "GNRC": {
+        "full_address": "S45 W29290 Highway 59, Waukesha, 53189, United States",
+        "latitude": 42.9618298,
+        "longitude": -88.3325507,
+        "employees": 9400,
+        "website": "https://www.generac.com"
+    },
+    "GPC": {
+        "full_address": "2999 Wildwood Parkway, Atlanta, 30339, United States",
+        "latitude": 33.9108373,
+        "longitude": -84.4558879,
+        "employees": 65000,
+        "website": "https://www.genpt.com"
+    },
+    "GPN": {
+        "full_address": "3550 Lenox Road, Atlanta, 30326, United States",
+        "latitude": 33.8495865,
+        "longitude": -84.3613842,
+        "employees": 26000,
+        "website": "https://www.globalpayments.com"
+    },
+    "GRMN": {
+        "full_address": "MUehlentalstrasse 36/38, Schaffhausen, 8200, Switzerland",
+        "latitude": 47.6993807,
+        "longitude": 8.6322989,
+        "employees": 23000,
+        "website": "https://www.garmin.com"
+    },
+    "GS": {
+        "full_address": "200 West Street, New York, 10282, United States",
+        "latitude": 40.7147237,
+        "longitude": -74.0144315,
+        "employees": 47000,
+        "website": "https://www.goldmansachs.com"
+    },
+    "GWRE": {
+        "full_address": "970 Park Pl, San Mateo, 94403, United States",
+        "latitude": 37.544453,
+        "longitude": -122.2936567,
+        "employees": 4049,
+        "website": "https://www.guidewire.com"
+    },
+    "HAL": {
+        "full_address": "3000 North Sam Houston Parkway East, Houston, 77032, United States",
+        "latitude": 29.937775,
+        "longitude": -95.3403886,
+        "employees": 46000,
+        "website": "https://www.halliburton.com"
+    },
+    "HAS": {
+        "full_address": "1027 Newport Avenue, Pawtucket, 02861, United States",
+        "latitude": 41.882975,
+        "longitude": -71.3543015,
+        "employees": 4520,
+        "website": "https://corporate.hasbro.com"
+    },
+    "HBAN": {
+        "full_address": "Huntington Center, Columbus, 43287, United States",
+        "latitude": 39.9611747,
+        "longitude": -83.0010939,
+        "employees": 24641,
+        "website": "https://www.huntington.com"
+    },
+    "HIG": {
+        "full_address": "One Hartford Plaza, Hartford, 06155, United States",
+        "latitude": 41.7663058,
+        "longitude": -72.6710035,
+        "employees": 19200,
+        "website": "https://www.thehartford.com"
+    },
+    "HII": {
+        "full_address": "4101 Washington Avenue, Newport News, 23607, United States",
+        "latitude": 36.9905686,
+        "longitude": -76.433193,
+        "employees": 44000,
+        "website": "https://www.hii.com"
+    },
+    "HLT": {
+        "full_address": "7930 Jones Branch Drive, McLean, 22102, United States",
+        "latitude": 38.9287768,
+        "longitude": -77.2156427,
+        "employees": 182000,
+        "website": "https://www.hilton.com"
+    },
+    "HON": {
+        "full_address": "855 South Mint Street, Charlotte, 28202, United States",
+        "latitude": 35.2241736,
+        "longitude": -80.8524978,
+        "employees": 101000,
+        "website": "https://www.honeywell.com"
+    },
+    "HPE": {
+        "full_address": "1701 East Mossy Oaks Road, Spring, 77389, United States",
+        "latitude": 30.0927438,
+        "longitude": -95.4546079,
+        "employees": 67000,
+        "website": "https://www.hpe.com"
+    },
+    "HPQ": {
+        "full_address": "1501 Page Mill Road, Palo Alto, 94304, United States",
+        "latitude": 37.4142218,
+        "longitude": -122.1492233,
+        "employees": 55000,
+        "website": "https://www.hp.com"
+    },
+    "HRL": {
+        "full_address": "1 Hormel Place, Austin, 55912-3680, United States",
+        "latitude": 43.681689,
+        "longitude": -92.967765,
+        "employees": 20000,
+        "website": "https://www.hormelfoods.com"
+    },
+    "HSIC": {
+        "full_address": "135 Duryea Road, Melville, 11747, United States",
+        "latitude": 40.767775,
+        "longitude": -73.417486,
+        "employees": 25000,
+        "website": "https://www.henryschein.com"
+    },
+    "HST": {
+        "full_address": "4747 Bethesda Avenue, Bethesda, 20814-1109, United States",
+        "latitude": 38.9811223,
+        "longitude": -77.0944518,
+        "employees": 162,
+        "website": "https://www.hosthotels.com"
+    },
+    "HSY": {
+        "full_address": "19 East Chocolate Avenue, Hershey, 17033, United States",
+        "latitude": 40.285802,
+        "longitude": -76.6493262,
+        "employees": 17550,
+        "website": "https://www.thehersheycompany.com"
+    },
+    "HUBB": {
+        "full_address": "40 Waterview Drive, Shelton, 06484, United States",
+        "latitude": 41.2959054,
+        "longitude": -73.0806903,
+        "employees": 18200,
+        "website": "https://www.hubbell.com"
+    },
+    "HUM": {
+        "full_address": "Humana Building, Louisville, 40202, United States",
+        "latitude": 38.2564864,
+        "longitude": -85.7586594,
+        "employees": 67060,
+        "website": "https://www.humana.com"
+    },
+    "HWM": {
+        "full_address": "201 Isabella Street, Pittsburgh, 15212-5872, United States",
+        "latitude": 40.4477854,
+        "longitude": -80.0011452,
+        "employees": 25430,
+        "website": "https://www.howmet.com"
+    },
+    "ICE": {
+        "full_address": "5660 New Northside Drive, Atlanta, 30328, United States",
+        "latitude": 33.9091733,
+        "longitude": -84.4311836,
+        "employees": 12694,
+        "website": "https://www.ice.com"
+    },
+    "IDXX": {
+        "full_address": "One IDEXX Drive, Westbrook, 04092, United States",
+        "latitude": 43.66323,
+        "longitude": -70.3749323,
+        "employees": 11000,
+        "website": "https://www.idexx.com"
+    },
+    "IEX": {
+        "full_address": "3100 Sanders Road, Northbrook, 60062, United States",
+        "latitude": 42.0968402,
+        "longitude": -87.8765835,
+        "employees": 8700,
+        "website": "https://www.idexcorp.com"
+    },
+    "IFF": {
+        "full_address": "521 West 57th Street, New York, 10019-2960, United States",
+        "latitude": 40.7696465,
+        "longitude": -73.9894119,
+        "employees": 21500,
+        "website": "https://www.iff.com"
+    },
+    "INVH": {
+        "full_address": "5420 LBJ Freeway, Dallas, 75240, United States",
+        "latitude": 32.9231283,
+        "longitude": -96.8175853,
+        "employees": 1725,
+        "website": "https://www.invitationhomes.com"
+    },
+    "IP": {
+        "full_address": "6400 Poplar Avenue, Memphis, 38197, United States",
+        "latitude": 35.100267,
+        "longitude": -89.850297,
+        "employees": 62602,
+        "website": "https://www.internationalpaper.com"
+    },
+    "IQV": {
+        "full_address": "2400 Ellis Road, Durham, 27703, United States",
+        "latitude": 35.9358331,
+        "longitude": -78.8545067,
+        "employees": 93000,
+        "website": "https://www.iqvia.com"
+    },
+    "IR": {
+        "full_address": "525 Harbour Place Drive, Davidson, 28036, United States",
+        "latitude": 35.5049672,
+        "longitude": -80.8634466,
+        "employees": 21000,
+        "website": "https://www.irco.com"
+    },
+    "IRM": {
+        "full_address": "85 New Hampshire Avenue, Portsmouth, 03801, United States",
+        "latitude": 43.0827941,
+        "longitude": -70.8090842,
+        "employees": 29400,
+        "website": "https://www.ironmountain.com"
+    },
+    "ISRG": {
+        "full_address": "1020 Kifer Road, Sunnyvale, 94086-5304, United States",
+        "latitude": 37.3751422,
+        "longitude": -122.0133548,
+        "employees": 17021,
+        "website": "https://www.intuitive.com"
+    },
+    "IT": {
+        "full_address": "56 Top Gallant Road, Stamford, 06902-7700, United States",
+        "latitude": 41.0313907,
+        "longitude": -73.5490038,
+        "employees": 19367,
+        "website": "https://www.gartner.com"
+    },
+    "ITW": {
+        "full_address": "155 Harlem Avenue, Glenview, 60025, United States",
+        "latitude": 42.0578814,
+        "longitude": -87.8040606,
+        "employees": 43000,
+        "website": "https://www.itw.com"
+    },
+    "IVZ": {
+        "full_address": "Midtown Union, Atlanta, 30309, United States",
+        "latitude": 33.7904815,
+        "longitude": -84.388885,
+        "employees": 7421,
+        "website": "https://www.invesco.com/corporate/en/home.html"
+    },
+    "J": {
+        "full_address": "1999 Bryan Street, Dallas, 75201, United States",
+        "latitude": 32.7848118,
+        "longitude": -96.7971807,
+        "employees": 47000,
+        "website": "https://www.jacobs.com"
+    },
+    "JBHT": {
+        "full_address": "615 J.B. Hunt Corporate Drive, Lowell, 72745-0130, United States",
+        "latitude": 36.2446589,
+        "longitude": -94.1494189,
+        "employees": 31750,
+        "website": "https://www.jbhunt.com"
+    },
+    "JCI": {
+        "full_address": "One Albert Quay, Cork, T12 X8N6, Ireland",
+        "latitude": 51.8975465,
+        "longitude": -8.4635657,
+        "employees": 87000,
+        "website": "https://www.johnsoncontrols.com"
+    },
+    "KDP": {
+        "full_address": "6425 Hall of Fame Lane, Frisco, 75034, United States",
+        "latitude": 33.1118671,
+        "longitude": -96.8292374,
+        "employees": 30600,
+        "website": "https://www.keurigdrpepper.com"
+    },
+    "KEY": {
+        "full_address": "127 Public Square, Cleveland, 44114-1306, United States",
+        "latitude": 41.5010209,
+        "longitude": -81.6938273,
+        "employees": 17469,
+        "website": "https://www.key.com"
+    },
+    "KEYS": {
+        "full_address": "1400 Fountaingrove Parkway, Santa Rosa, 95403-1738, United States",
+        "latitude": 38.4799629,
+        "longitude": -122.7105591,
+        "employees": 16500,
+        "website": "https://www.keysight.com"
+    },
+    "KG": {
+        "full_address": "11 Bermudiana Road, Hamilton, HM 08, Bermuda",
+        "latitude": 32.2937316,
+        "longitude": -64.7884916,
+        "employees": 44,
+        "website": "https://www.kestrelgroup.com"
+    },
+    "KHC": {
+        "full_address": "One PPG Place, Pittsburgh, 15222, United States",
+        "latitude": 40.4400104,
+        "longitude": -80.0037606,
+        "employees": 35000,
+        "website": "https://www.kraftheinzcompany.com"
+    },
+    "KIM": {
+        "full_address": "500 North Broadway, Jericho, 11753-2128, United States",
+        "latitude": 40.7906553,
+        "longitude": -73.5346576,
+        "employees": 710,
+        "website": "https://www.kimcorealty.com"
+    },
+    "KLAC": {
+        "full_address": "One Technology Drive, Milpitas, 95035, United States",
+        "latitude": 37.420688,
+        "longitude": -121.9225097,
+        "employees": 15000,
+        "website": "https://www.kla.com"
+    },
+    "KMI": {
+        "full_address": "1001 Louisiana Street, Houston, 77002, United States",
+        "latitude": 29.7578893,
+        "longitude": -95.3673868,
+        "employees": 11028,
+        "website": "https://www.kindermorgan.com"
+    },
+    "KNX": {
+        "full_address": "2002 West Wahalla Lane, Phoenix, 85027, United States",
+        "latitude": 33.6677253,
+        "longitude": -112.1034368,
+        "employees": 37100,
+        "website": "https://knight-swift.com"
+    },
+    "KSS": {
+        "full_address": "N56 W17000 Ridgewood Drive, Menomonee Falls, 53051, United States",
+        "latitude": 43.1225365,
+        "longitude": -88.1230439,
+        "employees": 84000,
+        "website": "https://www.corporate.kohls.com"
+    },
+    "L": {
+        "full_address": "9 West 57th Street, New York, 10019-2714, United States",
+        "latitude": 40.7638353,
+        "longitude": -73.9749533,
+        "employees": 13100,
+        "website": "https://www.loews.com"
+    },
+    "LDOS": {
+        "full_address": "1750 Presidents Street, Reston, 20190, United States",
+        "latitude": 38.9590871,
+        "longitude": -77.3557765,
+        "employees": 50000,
+        "website": "https://www.leidos.com"
+    },
+    "LH": {
+        "full_address": "358 South Main Street, Burlington, 27215, United States",
+        "latitude": 36.0933733,
+        "longitude": -79.4371798,
+        "employees": 71000,
+        "website": "https://www.labcorp.com"
+    },
+    "LHX": {
+        "full_address": "1025 West NASA Boulevard, Melbourne, 32919, United States",
+        "latitude": 28.0930473,
+        "longitude": -80.6530783,
+        "employees": 45000,
+        "website": "https://www.l3harris.com"
+    },
+    "LMT": {
+        "full_address": "6801 Rockledge Drive, Bethesda, 20817, United States",
+        "latitude": 39.0303212,
+        "longitude": -77.1371162,
+        "employees": 123000,
+        "website": "https://www.lockheedmartin.com"
+    },
+    "LNC": {
+        "full_address": "150 North Radnor-Chester Road, Radnor, 19087, United States",
+        "latitude": 40.0430023,
+        "longitude": -75.3656459,
+        "employees": 9423,
+        "website": "https://www.lincolnfinancial.com"
+    },
+    "LNT": {
+        "full_address": "4902 North Biltmore Lane, Madison, 53718, United States",
+        "latitude": 43.1507667,
+        "longitude": -89.296138,
+        "employees": 2948,
+        "website": "https://www.alliantenergy.com"
+    },
+    "LOW": {
+        "full_address": "1000 Lowes Boulevard, Mooresville, 28117, United States",
+        "latitude": 35.5456755,
+        "longitude": -80.8514706,
+        "employees": 167000,
+        "website": "https://corporate.lowes.com"
+    },
+    "LRCX": {
+        "full_address": "4650 Cushing Parkway, Fremont, 94538, United States",
+        "latitude": 37.4834993,
+        "longitude": -121.9644742,
+        "employees": 20600,
+        "website": "https://www.lamresearch.com"
+    },
+    "LUMN": {
+        "full_address": "100 CenturyLink Drive, Monroe, 71203, United States",
+        "latitude": 32.5904389,
+        "longitude": -92.0663521,
+        "employees": 21000,
+        "website": "https://www.lumen.com"
+    },
+    "LVS": {
+        "full_address": "5420 S. Durango Dr, Las Vegas, 89113, United States",
+        "latitude": 36.1295573,
+        "longitude": -115.2790606,
+        "employees": 41000,
+        "website": "https://www.sands.com"
+    },
+    "LW": {
+        "full_address": "599 South Rivershore Lane, Eagle, 83616, United States",
+        "latitude": 43.6891468,
+        "longitude": -116.3562785,
+        "employees": 10100,
+        "website": "https://www.lambweston.com"
+    },
+    "LYV": {
+        "full_address": "9348 Civic Center Drive, Beverly Hills, 90210, United States",
+        "latitude": 34.074174,
+        "longitude": -118.399135,
+        "employees": 17700,
+        "website": "https://www.livenationentertainment.com"
+    },
+    "MAA": {
+        "full_address": "6815 Poplar Avenue, Germantown, 38138-3606, United States",
+        "latitude": 35.0977419,
+        "longitude": -89.8358637,
+        "employees": 2507,
+        "website": "https://www.maac.com"
+    },
+    "MAR": {
+        "full_address": "7750 Wisconsin Avenue, Bethesda, 20814, United States",
+        "latitude": 38.9876218,
+        "longitude": -77.0954899,
+        "employees": 414000,
+        "website": "https://www.marriott.com"
+    },
+    "MAS": {
+        "full_address": "17450 College Parkway, Livonia, 48152, United States",
+        "latitude": 42.4154628,
+        "longitude": -83.4258182,
+        "employees": 18000,
+        "website": "https://masco.com"
+    },
+    "MCK": {
+        "full_address": "6555 State Highway 161, Irving, 75039, United States",
+        "latitude": 32.9100395,
+        "longitude": -96.944288,
+        "employees": 41600,
+        "website": "https://www.mckesson.com"
+    },
+    "MCHP": {
+        "full_address": "2355 West Chandler Boulevard, Chandler, 85224-6199, United States",
+        "latitude": 33.3040695,
+        "longitude": -111.8835606,
+        "employees": 17900,
+        "website": "https://www.microchip.com"
+    },
+    "MDLZ": {
+        "full_address": "905 West Fulton Market, Chicago, 60607, United States",
+        "latitude": 41.8864169,
+        "longitude": -87.6502131,
+        "employees": 91000,
+        "website": "https://www.mondelezinternational.com"
+    },
+    "MET": {
+        "full_address": "200 Park Avenue, New York, 10166-0188, United States",
+        "latitude": 40.7534645,
+        "longitude": -73.9766148,
+        "employees": 46000,
+        "website": "https://www.metlife.com"
+    },
+    "MGM": {
+        "full_address": "3600 Las Vegas Boulevard South, Las Vegas, 89109, United States",
+        "latitude": 36.1123192,
+        "longitude": -115.178723,
+        "employees": 60000,
+        "website": "https://www.mgmresorts.com"
+    },
+    "MI": {
+        "full_address": "Kings Wing Plaza 2, Sha Tin, Hong Kong",
+        "latitude": 22.3889191,
+        "longitude": 114.2088964,
+        "employees": 8,
+        "website": "https://www.nftoeo.com"
+    },
+    "MKTX": {
+        "full_address": "55 Hudson Yards, New York, 10001, United States",
+        "latitude": 40.7552063,
+        "longitude": -74.0017804,
+        "employees": 859,
+        "website": "https://www.marketaxess.com"
+    },
+    "MLM": {
+        "full_address": "4123 Parklake Avenue, Raleigh, 27612, United States",
+        "latitude": 35.8338306,
+        "longitude": -78.689238,
+        "employees": 9600,
+        "website": "https://www.martinmarietta.com"
+    },
+    "MNST": {
+        "full_address": "1 Monster Way, Corona, 92879, United States",
+        "latitude": 33.8866745,
+        "longitude": -117.5132333,
+        "employees": 5773,
+        "website": "https://www.monsterbevcorp.com"
+    },
+    "MO": {
+        "full_address": "6601 West Broad Street, Richmond, 23230, United States",
+        "latitude": 37.5757349,
+        "longitude": -77.4862452,
+        "employees": 5900,
+        "website": "https://www.altria.com"
+    },
+    "MOH": {
+        "full_address": "200 Oceangate, Long Beach, 90802, United States",
+        "latitude": 33.7665905,
+        "longitude": -118.1984925,
+        "employees": 19000,
+        "website": "https://www.molinahealthcare.com"
+    },
+    "MOS": {
+        "full_address": "101 East Kennedy Blvd, Tampa, 33602, United States",
+        "latitude": 27.947073,
+        "longitude": -82.459494,
+        "employees": 13249,
+        "website": "https://www.mosaicco.com"
+    },
+    "MPC": {
+        "full_address": "539 South Main Street, Findlay, 45840-3229, United States",
+        "latitude": 41.036497,
+        "longitude": -83.6501626,
+        "employees": 18500,
+        "website": "https://www.marathonpetroleum.com"
+    },
+    "MPWR": {
+        "full_address": "1555 Palm Beach Lakes Boulevard, West Palm Beach, 33401, United States",
+        "latitude": 26.7251241,
+        "longitude": -80.0788218,
+        "employees": 4501,
+        "website": "https://www.monolithicpower.com"
+    },
+    "MRNA": {
+        "full_address": "325 Binney Street, Cambridge, 02142, United States",
+        "latitude": 42.3674657,
+        "longitude": -71.0885651,
+        "employees": 4700,
+        "website": "https://www.modernatx.com"
+    },
+    "MS": {
+        "full_address": "1585 Broadway, New York, 10036, United States",
+        "latitude": 40.7599838,
+        "longitude": -73.9855237,
+        "employees": 84000,
+        "website": "https://www.morganstanley.com"
+    },
+    "MSI": {
+        "full_address": "500 West Monroe Street, Chicago, 60661, United States",
+        "latitude": 41.8807836,
+        "longitude": -87.6408671,
+        "employees": 23000,
+        "website": "https://www.motorolasolutions.com"
+    },
+    "MTB": {
+        "full_address": "One M&T Plaza, Buffalo, 14203, United States",
+        "latitude": 42.8837697,
+        "longitude": -78.874268,
+        "employees": 21866,
+        "website": "https://www.mtb.com"
+    },
+    "MTD": {
+        "full_address": "Im Langacher 44, Greifensee, 8606, Switzerland",
+        "latitude": 47.3660814,
+        "longitude": 8.6847733,
+        "employees": 16600,
+        "website": "https://www.mt.com"
+    },
+    "MU": {
+        "full_address": "8000 South Federal Way, Boise, 83716-9632, United States",
+        "latitude": 43.5301411,
+        "longitude": -116.150825,
+        "employees": 53000,
+        "website": "https://www.micron.com"
+    },
+    "NATH": {
+        "full_address": "One Jericho Plaza, Jericho, 11753, United States",
+        "latitude": 40.7860113,
+        "longitude": -73.5474168,
+        "employees": 129,
+        "website": "https://www.nathansfamous.com"
+    },
+    "NCLH": {
+        "full_address": "7665 Corporate Center Drive, Miami, 33126, United States",
+        "latitude": 25.7917494,
+        "longitude": -80.3202216,
+        "employees": 44500,
+        "website": "https://www.nclhltd.com"
+    },
+    "NDAQ": {
+        "full_address": "151 West 42nd Street, New York, 10036, United States",
+        "latitude": 40.7554036,
+        "longitude": -73.9852254,
+        "employees": 9613,
+        "website": "https://www.nasdaq.com"
+    },
+    "NDSN": {
+        "full_address": "28601 Clemens Road, Westlake, 44145-4551, United States",
+        "latitude": 41.4702112,
+        "longitude": -81.9369284,
+        "employees": 8200,
+        "website": "https://www.nordson.com"
+    },
+    "NEE": {
+        "full_address": "700 Universe Boulevard, Juno Beach, 33408, United States",
+        "latitude": 26.858251,
+        "longitude": -80.060074,
+        "employees": 17400,
+        "website": "https://www.nexteraenergy.com"
+    },
+    "NEM": {
+        "full_address": "6900 E Layton Avenue, Denver, 80237, United States",
+        "latitude": 39.6283235,
+        "longitude": -104.8943868,
+        "employees": 17500,
+        "website": "https://www.newmont.com"
+    },
+    "NI": {
+        "full_address": "801 East 86th Avenue, Merrillville, 46410, United States",
+        "latitude": 41.462135,
+        "longitude": -87.329487,
+        "employees": 7668,
+        "website": "https://www.nisource.com"
+    },
+    "NKE": {
+        "full_address": "One Bowerman Drive, Beaverton, 97005-6453, United States",
+        "latitude": 45.5069342,
+        "longitude": -122.8248135,
+        "employees": 77800,
+        "website": "https://www.nike.com"
+    },
+    "NOC": {
+        "full_address": "2980 Fairview Park Drive, Falls Church, 22042, United States",
+        "latitude": 38.8671148,
+        "longitude": -77.2150414,
+        "employees": 95000,
+        "website": "https://www.northropgrumman.com"
+    },
+    "NOW": {
+        "full_address": "2225 Lawson Lane, Santa Clara, 95054, United States",
+        "latitude": 37.3758244,
+        "longitude": -121.9627088,
+        "employees": 29187,
+        "website": "https://www.servicenow.com"
+    },
+    "NRG": {
+        "full_address": "1301 McKinney Street, Houston, 77010, United States",
+        "latitude": 29.7554593,
+        "longitude": -95.3616032,
+        "employees": 16702,
+        "website": "https://www.nrg.com"
+    },
+    "NSC": {
+        "full_address": "650 West Peachtree Street NW, Atlanta, 30308-1925, United States",
+        "latitude": 33.772442,
+        "longitude": -84.387448,
+        "employees": 19300,
+        "website": "https://www.norfolksouthern.com"
+    },
+    "NTAP": {
+        "full_address": "3060 Olsen Drive, San Jose, 95128, United States",
+        "latitude": 37.3188075,
+        "longitude": -121.9481474,
+        "employees": 11700,
+        "website": "https://www.netapp.com"
+    },
+    "NUE": {
+        "full_address": "1915 Rexford Road, Charlotte, 28211, United States",
+        "latitude": 35.1585303,
+        "longitude": -80.8342599,
+        "employees": 33000,
+        "website": "https://www.nucor.com"
+    },
+    "NVR": {
+        "full_address": "Plaza America Tower I, Reston, 20190, United States",
+        "latitude": 38.9526451,
+        "longitude": -77.349993,
+        "employees": 6300,
+        "website": "https://www.nvrinc.com"
+    },
+    "NWS": {
+        "full_address": "1211 Avenue of the Americas, New York, 10036, United States",
+        "latitude": 40.7586695,
+        "longitude": -73.9823756,
+        "employees": 22300,
+        "website": "https://newscorp.com"
+    },
+    "NWSA": {
+        "full_address": "1211 Avenue of the Americas, New York, 10036, United States",
+        "latitude": 40.7586695,
+        "longitude": -73.9823756,
+        "employees": 22300,
+        "website": "https://newscorp.com"
+    },
+    "NXPI": {
+        "full_address": "60 High Tech Campus, Eindhoven, 5656 AG, Netherlands",
+        "latitude": 51.4088881,
+        "longitude": 5.4603907,
+        "employees": 32169,
+        "website": "https://www.nxp.com"
+    },
+    "O": {
+        "full_address": "11995 El Camino Real, San Diego, 92130, United States",
+        "latitude": 32.9359583,
+        "longitude": -117.237797,
+        "employees": 544,
+        "website": "https://www.realtyincome.com"
+    },
+    "ODFL": {
+        "full_address": "500 Old Dominion Way, Thomasville, 27360, United States",
+        "latitude": 35.9089197,
+        "longitude": -80.0588492,
+        "employees": 20264,
+        "website": "https://www.odfl.com"
+    },
+    "OGN": {
+        "full_address": "30 Hudson Street, Jersey City, 07302, United States",
+        "latitude": 40.713015,
+        "longitude": -74.0339886,
+        "employees": 10000,
+        "website": "https://www.organon.com"
+    },
+    "OI": {
+        "full_address": "One Michael Owens Way, Perrysburg, 43551, United States",
+        "latitude": 41.5285366,
+        "longitude": -83.6477806,
+        "employees": 19000,
+        "website": "https://www.o-i.com"
+    },
+    "OMC": {
+        "full_address": "280 Park Avenue, New York, 10017, United States",
+        "latitude": 40.7564853,
+        "longitude": -73.975049,
+        "employees": 120000,
+        "website": "https://www.omc.com"
+    },
+    "ON": {
+        "full_address": "5701 North Pima Road, Scottsdale, 85250, United States",
+        "latitude": 33.5194439,
+        "longitude": -111.889114,
+        "employees": 22600,
+        "website": "https://www.onsemi.com"
+    },
+    "ORLY": {
+        "full_address": "233 South Patterson Avenue, Springfield, 65802-2298, United States",
+        "latitude": 37.2088686,
+        "longitude": -93.248021,
+        "employees": 93973,
+        "website": "https://www.oreillyauto.com"
+    },
+    "OTIS": {
+        "full_address": "One Carrier Place, Farmington, 06032, United States",
+        "latitude": 41.7162489,
+        "longitude": -72.799735,
+        "employees": 72000,
+        "website": "https://www.otis.com"
+    },
+    "OXY": {
+        "full_address": "5 Greenway Plaza, Houston, 77046-0521, United States",
+        "latitude": 29.7306513,
+        "longitude": -95.4317595,
+        "employees": 10412,
+        "website": "https://www.oxy.com"
+    },
+    "PANW": {
+        "full_address": "3000 Tannery Way, Santa Clara, 95054, United States",
+        "latitude": 37.38404,
+        "longitude": -121.983974,
+        "employees": 21491,
+        "website": "https://www.paloaltonetworks.com"
+    },
+    "PAYC": {
+        "full_address": "7501 West Memorial Road, Oklahoma City, 73142, United States",
+        "latitude": 35.6117012,
+        "longitude": -97.6485485,
+        "employees": 5770,
+        "website": "https://www.paycom.com"
+    },
+    "PAYX": {
+        "full_address": "911 Panorama Trail South, Rochester, 14625-2396, United States",
+        "latitude": 43.1251599,
+        "longitude": -77.4920402,
+        "employees": "",
+        "website": "https://www.paychex.com"
+    },
+    "PCG": {
+        "full_address": "300 Lakeside Drive, Oakland, 94612, United States",
+        "latitude": 37.8087787,
+        "longitude": -122.2640529,
+        "employees": 29010,
+        "website": "https://www.pgecorp.com"
+    },
+    "PEG": {
+        "full_address": "80 Park Plaza, Newark, 07102, United States",
+        "latitude": 40.737485,
+        "longitude": -74.1685971,
+        "employees": 13189,
+        "website": "https://investor.pseg.com"
+    },
+    "PENN": {
+        "full_address": "825 Berkshire Blvd., Wyomissing, 19610, United States",
+        "latitude": 40.3507347,
+        "longitude": -75.9690118,
+        "employees": 23441,
+        "website": "https://www.pennentertainment.com"
+    },
+    "PFE": {
+        "full_address": "66 Hudson Boulevard East, New York, 10001-2192, United States",
+        "latitude": 40.7552308,
+        "longitude": -73.999549,
+        "employees": 75000,
+        "website": "https://www.pfizer.com"
+    },
+    "PFG": {
+        "full_address": "711 High Street, Des Moines, 50392, United States",
+        "latitude": 41.5886671,
+        "longitude": -93.6276408,
+        "employees": 19700,
+        "website": "https://www.principal.com"
+    },
+    "PGR": {
+        "full_address": "300 North Commons Blvd., Mayfield, 44143, United States",
+        "latitude": 41.5651476,
+        "longitude": -81.4430631,
+        "employees": 70053,
+        "website": "https://www.progressive.com"
+    },
+    "PHM": {
+        "full_address": "3350 Peachtree Road NE, Atlanta, 30326, United States",
+        "latitude": 33.8483773,
+        "longitude": -84.3664347,
+        "employees": 6506,
+        "website": "https://pultegroupinc.com"
+    },
+    "PKG": {
+        "full_address": "1 North Field Court, Lake Forest, 60045, United States",
+        "latitude": 42.243193,
+        "longitude": -87.897397,
+        "employees": 16800,
+        "website": "https://www.packagingcorp.com"
+    },
+    "PRU": {
+        "full_address": "751 Broad Street, Newark, 07102, United States",
+        "latitude": 40.7368007,
+        "longitude": -74.1715553,
+        "employees": 36607,
+        "website": "https://www.prudential.com"
+    },
+    "PSA": {
+        "full_address": "701 Western Avenue, Glendale, 91201-2349, United States",
+        "latitude": 34.165927,
+        "longitude": -118.295305,
+        "employees": 5770,
+        "website": "https://www.publicstorage.com"
+    },
+    "PSX": {
+        "full_address": "2331 CityWest Boulevard, Houston, 77042, United States",
+        "latitude": 29.740843,
+        "longitude": -95.5614946,
+        "employees": 12600,
+        "website": "https://www.phillips66.com"
+    },
+    "PTC": {
+        "full_address": "121 Seaport Boulevard, Boston, 02210, United States",
+        "latitude": 42.3508234,
+        "longitude": -71.0446509,
+        "employees": 7000,
+        "website": "https://www.ptc.com"
+    },
+    "PVH": {
+        "full_address": "285 Madison Avenue, New York, 10017, United States",
+        "latitude": 40.751636,
+        "longitude": -73.9799764,
+        "employees": 15000,
+        "website": "https://www.pvh.com"
+    },
+    "PWR": {
+        "full_address": "2727 North Loop West, Houston, 77008, United States",
+        "latitude": 29.8067209,
+        "longitude": -95.4458767,
+        "employees": 69500,
+        "website": "https://www.quantaservices.com"
+    },
+    "PYPL": {
+        "full_address": "2211 North First Street, San Jose, 95131, United States",
+        "latitude": 37.3768714,
+        "longitude": -121.9228061,
+        "employees": 23800,
+        "website": "https://www.paypal.com"
+    },
+    "QRVO": {
+        "full_address": "7628 Thorndike Road, Greensboro, 27409-9421, United States",
+        "latitude": 36.0766123,
+        "longitude": -79.9610786,
+        "employees": 5200,
+        "website": "https://www.qorvo.com"
+    },
+    "REG": {
+        "full_address": "One Independent Drive, Jacksonville, 32202-5019, United States",
+        "latitude": 30.3255719,
+        "longitude": -81.6601441,
+        "employees": 503,
+        "website": "https://www.regencycenters.com"
+    },
+    "REGN": {
+        "full_address": "777 Old Saw Mill River Road, Tarrytown, 10591-6707, United States",
+        "latitude": 41.0783771,
+        "longitude": -73.8235844,
+        "employees": 15343,
+        "website": "https://www.regeneron.com"
+    },
+    "RHI": {
+        "full_address": "2884 Sand Hill Road, Menlo Park, 94025, United States",
+        "latitude": 37.4205561,
+        "longitude": -122.2121956,
+        "employees": 14500,
+        "website": "https://www.roberthalf.com"
+    },
+    "RL": {
+        "full_address": "650 Madison Avenue, New York, 10022, United States",
+        "latitude": 40.7638797,
+        "longitude": -73.971616,
+        "employees": 15600,
+        "website": "https://www.ralphlauren.com"
+    },
+    "RMD": {
+        "full_address": "9001 Spectrum Center Boulevard, San Diego, 92123, United States",
+        "latitude": 32.825906,
+        "longitude": -117.134327,
+        "employees": 10600,
+        "website": "https://www.resmed.com"
+    },
+    "ROST": {
+        "full_address": "5130 Hacienda Drive, Dublin, 94568-7579, United States",
+        "latitude": 37.7113719,
+        "longitude": -121.8881625,
+        "employees": 111000,
+        "website": "https://www.rossstores.com"
+    },
+    "RTX": {
+        "full_address": "1000 Wilson Boulevard, Arlington, 22209, United States",
+        "latitude": 38.8941639,
+        "longitude": -77.069626,
+        "employees": 180000,
+        "website": "https://www.rtx.com"
+    },
+    "SBAC": {
+        "full_address": "8051 Congress Avenue, Boca Raton, 33487-1307, United States",
+        "latitude": 26.4199626,
+        "longitude": -80.0939625,
+        "employees": 1844,
+        "website": "https://www.sbasite.com"
+    },
+    "SBUX": {
+        "full_address": "2401 Utah Avenue South, Seattle, 98134, United States",
+        "latitude": 47.5807667,
+        "longitude": -122.3359179,
+        "employees": 381000,
+        "website": "https://www.starbucks.com"
+    },
+    "SCHW": {
+        "full_address": "3000 Schwab Way, Westlake, 76262, United States",
+        "latitude": 32.9946947,
+        "longitude": -97.2171998,
+        "employees": 33500,
+        "website": "https://www.aboutschwab.com"
+    },
+    "SHW": {
+        "full_address": "1 Sherwin Way, Cleveland, 44113-2206, United States",
+        "latitude": 41.4991705,
+        "longitude": -81.6969355,
+        "employees": 64249,
+        "website": "https://www.sherwin-williams.com"
+    },
+    "SIRI": {
+        "full_address": "1221 Avenue of the Americas, New York, 10020, United States",
+        "latitude": 40.7595136,
+        "longitude": -73.9825069,
+        "employees": 5119,
+        "website": "https://www.siriusxm.com"
+    },
+    "SJM": {
+        "full_address": "One Strawberry Lane, Orrville, 44667-0280, United States",
+        "latitude": 40.8465954,
+        "longitude": -81.7628913,
+        "employees": "",
+        "website": "https://www.jmsmucker.com"
+    },
+    "SLB": {
+        "full_address": "5599 San Felipe, Houston, 77056, United States",
+        "latitude": 29.7496296,
+        "longitude": -95.4733679,
+        "employees": 109000,
+        "website": "https://www.slb.com"
+    },
+    "SLG": {
+        "full_address": "One Vanderbilt Avenue, New York, 10017, United States",
+        "latitude": 40.7529739,
+        "longitude": -73.9785396,
+        "employees": 1289,
+        "website": "https://www.slgreen.com"
+    },
+    "SNA": {
+        "full_address": "2801 80th Street, Kenosha, 53143, United States",
+        "latitude": 42.558673,
+        "longitude": -87.842782,
+        "employees": 13000,
+        "website": "https://www.snapon.com"
+    },
+    "SNPS": {
+        "full_address": "675 Almanor Avenue, Sunnyvale, 94085, United States",
+        "latitude": 37.3980452,
+        "longitude": -122.0323385,
+        "employees": 28000,
+        "website": "https://www.synopsys.com"
+    },
+    "SPG": {
+        "full_address": "225 West Washington Street, Indianapolis, 46204-3438, United States",
+        "latitude": 39.7669316,
+        "longitude": -86.1619915,
+        "employees": 3100,
+        "website": "https://www.simon.com"
+    },
+    "SPGI": {
+        "full_address": "55 Water Street, New York, 10041, United States",
+        "latitude": 40.7032255,
+        "longitude": -74.0090671,
+        "employees": 44500,
+        "website": "https://www.spglobal.com"
+    },
+    "SRE": {
+        "full_address": "488 8th Avenue, San Diego, 92101, United States",
+        "latitude": 32.7102302,
+        "longitude": -117.157481,
+        "employees": 15938,
+        "website": "https://www.sempra.com"
+    },
+    "STE": {
+        "full_address": "5960 Heisley Road, Mentor, 44060, United States",
+        "latitude": 41.7105232,
+        "longitude": -81.3069117,
+        "employees": 17937,
+        "website": "https://www.steris.com"
+    },
+    "STT": {
+        "full_address": "One Congress Street, Boston, 02114, United States",
+        "latitude": 42.3626575,
+        "longitude": -71.0600162,
+        "employees": 51503,
+        "website": "https://www.statestreet.com"
+    },
+    "STX": {
+        "full_address": "121 Woodlands Avenue 5, Singapore, 739009, Singapore",
+        "latitude": 1.4338006,
+        "longitude": 103.8034814,
+        "employees": 30000,
+        "website": "https://www.seagate.com"
+    },
+    "STZ": {
+        "full_address": "50 East Broad Street, Rochester, 14614, United States",
+        "latitude": 43.1548184,
+        "longitude": -77.6106056,
+        "employees": 9400,
+        "website": "https://www.cbrands.com"
+    },
+    "SWK": {
+        "full_address": "1000 Stanley Drive, New Britain, 06053, United States",
+        "latitude": 41.6936818,
+        "longitude": -72.8077725,
+        "employees": 43500,
+        "website": "https://www.stanleyblackanddecker.com"
+    },
+    "SWKS": {
+        "full_address": "5260 California Avenue, Irvine, 92617, United States",
+        "latitude": 33.6382298,
+        "longitude": -117.8500224,
+        "employees": 10000,
+        "website": "https://www.skyworksinc.com"
+    },
+    "SYF": {
+        "full_address": "777 Long Ridge Road, Stamford, 06902, United States",
+        "latitude": 41.0965151,
+        "longitude": -73.5615215,
+        "employees": 20000,
+        "website": "https://www.synchrony.com"
+    },
+    "SYK": {
+        "full_address": "1941 Stryker Way, Portage, 49002, United States",
+        "latitude": 42.2243041,
+        "longitude": -85.5652925,
+        "employees": 56000,
+        "website": "https://www.stryker.com"
+    },
+    "SYY": {
+        "full_address": "1390 Enclave Parkway, Houston, 77077-2099, United States",
+        "latitude": 29.758959,
+        "longitude": -95.618817,
+        "employees": 75000,
+        "website": "https://www.sysco.com"
+    },
+    "T": {
+        "full_address": "208 South Akard Street, Dallas, 75202, United States",
+        "latitude": 32.7796042,
+        "longitude": -96.798763,
+        "employees": 132590,
+        "website": "https://www.att.com"
+    },
+    "TDG": {
+        "full_address": "1350 Euclid Avenue, Cleveland, 44115, United States",
+        "latitude": 41.5003198,
+        "longitude": -81.6818083,
+        "employees": 16500,
+        "website": "https://www.transdigm.com"
+    },
+    "TDY": {
+        "full_address": "1049 Camino Dos Rios, Thousand Oaks, 91360-2362, United States",
+        "latitude": 34.1931286,
+        "longitude": -118.8939224,
+        "employees": 15800,
+        "website": "https://www.teledyne.com"
+    },
+    "TER": {
+        "full_address": "600 Riverpark Drive, North Reading, 01864, United States",
+        "latitude": 42.5556183,
+        "longitude": -71.1356049,
+        "employees": 6600,
+        "website": "https://www.teradyne.com"
+    },
+    "TFC": {
+        "full_address": "214 North Tryon Street, Charlotte, 28202, United States",
+        "latitude": 35.2276451,
+        "longitude": -80.8406605,
+        "employees": 37877,
+        "website": "https://www.truist.com"
+    },
+    "TGT": {
+        "full_address": "1000 Nicollet Mall, Minneapolis, 55403, United States",
+        "latitude": 44.9737893,
+        "longitude": -93.2758321,
+        "employees": 415000,
+        "website": "https://corporate.target.com"
+    },
+    "TJX": {
+        "full_address": "770 Cochituate Road, Framingham, 01701, United States",
+        "latitude": 42.3087609,
+        "longitude": -71.3827551,
+        "employees": 377000,
+        "website": "https://www.tjx.com"
+    },
+    "TMUS": {
+        "full_address": "12920 SE 38th Street, Bellevue, 98006-1350, United States",
+        "latitude": 47.5765917,
+        "longitude": -122.167289,
+        "employees": 75000,
+        "website": "https://www.t-mobile.com"
+    },
+    "TPR": {
+        "full_address": "10 Hudson Yards, New York, 10001, United States",
+        "latitude": 40.7526862,
+        "longitude": -74.0015457,
+        "employees": 12500,
+        "website": "https://www.tapestry.com"
+    },
+    "TRGP": {
+        "full_address": "811 Louisiana Street, Houston, 77002, United States",
+        "latitude": 29.7598078,
+        "longitude": -95.3663969,
+        "employees": 3570,
+        "website": "https://www.targaresources.com"
+    },
+    "TRMB": {
+        "full_address": "10368 Westmoor Drive, Westminster, 80021, United States",
+        "latitude": 39.8971434,
+        "longitude": -105.1155221,
+        "employees": 11500,
+        "website": "https://www.trimble.com"
+    },
+    "TROW": {
+        "full_address": "1307 Point Street, Baltimore, 21231, United States",
+        "latitude": 39.2803278,
+        "longitude": -76.5976338,
+        "employees": 7507,
+        "website": "https://www.troweprice.com"
+    },
+    "TRV": {
+        "full_address": "485 Lexington Avenue, New York, 10017, United States",
+        "latitude": 40.7540963,
+        "longitude": -73.9736301,
+        "employees": 34000,
+        "website": "https://www.travelers.com"
+    },
+    "TSCO": {
+        "full_address": "5401 Virginia Way, Brentwood, 37027, United States",
+        "latitude": 36.0342608,
+        "longitude": -86.813558,
+        "employees": 52000,
+        "website": "https://www.tractorsupply.com"
+    },
+    "TSN": {
+        "full_address": "2200 West Don Tyson Parkway, Springdale, 72762-6999, United States",
+        "latitude": 36.1544288,
+        "longitude": -94.1542328,
+        "employees": 133000,
+        "website": "https://www.tysonfoods.com"
+    },
+    "TT": {
+        "full_address": "170/175 Lakeview Drive, Swords, Ireland",
+        "latitude": 53.4487497,
+        "longitude": -6.2196499,
+        "employees": 44000,
+        "website": "https://www.tranetechnologies.com"
+    },
+    "TTWO": {
+        "full_address": "110 West 44th Street, New York, 10036, United States",
+        "latitude": 40.7562298,
+        "longitude": -73.9836046,
+        "employees": 12909,
+        "website": "https://www.take2games.com"
+    },
+    "TXT": {
+        "full_address": "40 Westminster Street, Providence, 02903, United States",
+        "latitude": 41.8249042,
+        "longitude": -71.4092176,
+        "employees": 34000,
+        "website": "https://www.textron.com"
+    },
+    "TYL": {
+        "full_address": "5101 Tennyson Parkway, Plano, 75024, United States",
+        "latitude": 33.064931,
+        "longitude": -96.800817,
+        "employees": 7703,
+        "website": "https://www.tylertech.com"
+    },
+    "UAL": {
+        "full_address": "233 South Wacker Drive, Chicago, 60606, United States",
+        "latitude": 41.878738,
+        "longitude": -87.6359612,
+        "employees": 115600,
+        "website": "https://www.united.com"
+    },
+    "UDR": {
+        "full_address": "1745 Shea Center Drive, Highlands Ranch, 80129-1540, United States",
+        "latitude": 39.5533635,
+        "longitude": -105.0085596,
+        "employees": 1420,
+        "website": "https://www.udr.com"
+    },
+    "ULTA": {
+        "full_address": "1000 Remington Boulevard, Bolingbrook, 60440, United States",
+        "latitude": 41.6782511,
+        "longitude": -88.1058707,
+        "employees": 21382,
+        "website": "https://www.ulta.com"
+    },
+    "UNP": {
+        "full_address": "1400 Douglas Street, Omaha, 68179, United States",
+        "latitude": 41.2592348,
+        "longitude": -95.9351915,
+        "employees": 28647,
+        "website": "https://www.up.com"
+    },
+    "URI": {
+        "full_address": "100 First Stamford Place, Stamford, 06902, United States",
+        "latitude": 41.0438344,
+        "longitude": -73.5493851,
+        "employees": 28500,
+        "website": "https://www.unitedrentals.com"
+    },
+    "USB": {
+        "full_address": "800 Nicollet Mall, Minneapolis, 55402, United States",
+        "latitude": 44.9757059,
+        "longitude": -93.2738535,
+        "employees": 70000,
+        "website": "https://www.usbank.com"
+    },
+    "VALE": {
+        "full_address": "Praia de Botafogo, 186, Rio De Janeiro, 22250-145, Brazil",
+        "latitude": -22.9409281,
+        "longitude": -43.1797476,
+        "employees": 65805,
+        "website": "https://vale.com"
+    },
+    "VFC": {
+        "full_address": "1551 Wewatta Street, Denver, 80202, United States",
+        "latitude": 39.7522381,
+        "longitude": -105.0032478,
+        "employees": 14560,
+        "website": "https://www.vfc.com"
+    },
+    "VLO": {
+        "full_address": "One Valero Way, San Antonio, 78249, United States",
+        "latitude": 29.5871165,
+        "longitude": -98.6074065,
+        "employees": 9785,
+        "website": "https://www.valero.com"
+    },
+    "VNO": {
+        "full_address": "888 Seventh Avenue, New York, 10019-4499, United States",
+        "latitude": 40.9138474,
+        "longitude": -73.8064848,
+        "employees": 3145,
+        "website": "https://www.vno.com"
+    },
+    "VNT": {
+        "full_address": "5438 Wade Park Boulevard, Raleigh, 27607, United States",
+        "latitude": 35.808449,
+        "longitude": -78.7315194,
+        "employees": 7800,
+        "website": "https://www.vontier.com"
+    },
+    "VRSK": {
+        "full_address": "545 Washington Boulevard, Jersey City, 07310-1686, United States",
+        "latitude": 40.7276801,
+        "longitude": -74.0351045,
+        "employees": 8000,
+        "website": "https://www.verisk.com"
+    },
+    "VRSN": {
+        "full_address": "12061 Bluemont Way, Reston, 20190, United States",
+        "latitude": 38.9566443,
+        "longitude": -77.3622507,
+        "employees": 926,
+        "website": "https://www.verisign.com"
+    },
+    "VRTX": {
+        "full_address": "50 Northern Avenue, Boston, 02210, United States",
+        "latitude": 42.3535931,
+        "longitude": -71.0461764,
+        "employees": 6400,
+        "website": "https://www.vrtx.com"
+    },
+    "VTR": {
+        "full_address": "300 North LaSalle Street, Chicago, 60654, United States",
+        "latitude": 41.8870641,
+        "longitude": -87.6325017,
+        "employees": 542,
+        "website": "https://www.ventasreit.com"
+    },
+    "WAB": {
+        "full_address": "30 Isabella Street, Pittsburgh, 15212, United States",
+        "latitude": 40.4476699,
+        "longitude": -80.0038495,
+        "employees": 31000,
+        "website": "https://www.wabteccorp.com"
+    },
+    "WAT": {
+        "full_address": "34 Maple Street, Milford, 01757, United States",
+        "latitude": 42.1415267,
+        "longitude": -71.4876191,
+        "employees": 16000,
+        "website": "https://www.waters.com"
+    },
+    "WBD": {
+        "full_address": "230 Park Avenue South, New York, 10003, United States",
+        "latitude": 40.737711,
+        "longitude": -73.9886942,
+        "employees": 35500,
+        "website": "https://www.wbd.com"
+    },
+    "WEC": {
+        "full_address": "231 West Michigan Street, Milwaukee, 53201, United States",
+        "latitude": 43.0369794,
+        "longitude": -87.9138315,
+        "employees": 7000,
+        "website": "https://www.wecenergygroup.com"
+    },
+    "WELL": {
+        "full_address": "4500 Dorr Street, Toledo, 43615-4040, United States",
+        "latitude": 41.6529193,
+        "longitude": -83.6474819,
+        "employees": 712,
+        "website": "https://www.welltower.com"
+    },
+    "WM": {
+        "full_address": "800 Capitol Street, Houston, 77002, United States",
+        "latitude": 29.7597418,
+        "longitude": -95.364662,
+        "employees": 60500,
+        "website": "https://www.wm.com"
+    },
+    "WRB": {
+        "full_address": "475 Steamboat Road, Greenwich, 06830, United States",
+        "latitude": 41.0187004,
+        "longitude": -73.622281,
+        "employees": 8804,
+        "website": "https://www.berkley.com"
+    },
+    "WTW": {
+        "full_address": "51 Lime Street, London, EC3M 7DQ, United Kingdom",
+        "latitude": 51.5128703,
+        "longitude": -0.0814756,
+        "employees": 47000,
+        "website": "https://www.wtwco.com"
+    },
+    "WY": {
+        "full_address": "220 Occidental Avenue South, Seattle, 98104-7800, United States",
+        "latitude": 47.6005431,
+        "longitude": -122.3325752,
+        "employees": 9517,
+        "website": "https://www.weyerhaeuser.com"
+    },
+    "WYNN": {
+        "full_address": "3131 Las Vegas Boulevard South, Las Vegas, 89109, United States",
+        "latitude": 36.1256805,
+        "longitude": -115.1595791,
+        "employees": 28500,
+        "website": "https://www.wynnresorts.com"
+    },
+    "XRAY": {
+        "full_address": "13320 Ballantyne Corporate Place, Charlotte, 28277-3607, United States",
+        "latitude": 35.060724,
+        "longitude": -80.845684,
+        "employees": 14000,
+        "website": "https://www.dentsplysirona.com"
+    },
+    "XYL": {
+        "full_address": "301 Water Street SE, Washington, 20003, United States",
+        "latitude": 38.8732845,
+        "longitude": -77.001694,
+        "employees": 22000,
+        "website": "https://www.xylem.com"
+    },
+    "YUM": {
+        "full_address": "1441 Gardiner Lane, Louisville, 40213, United States",
+        "latitude": 38.1999626,
+        "longitude": -85.6950601,
+        "employees": 49000,
+        "website": "https://www.yum.com"
+    },
+    "ZBH": {
+        "full_address": "345 East Main Street, Warsaw, 46580, United States",
+        "latitude": 41.2391681,
+        "longitude": -85.8547511,
+        "employees": 17000,
+        "website": "https://www.zimmerbiomet.com"
+    },
+    "ZBRA": {
+        "full_address": "3 Overlook Point, Lincolnshire, 60069, United States",
+        "latitude": 42.1858461,
+        "longitude": -87.9314073,
+        "employees": 10700,
+        "website": "https://www.zebra.com"
+    },
+    "ZION": {
+        "full_address": "One South Main Street, Salt Lake City, 84133-1109, United States",
+        "latitude": 40.7687311,
+        "longitude": -111.8911844,
+        "employees": 9090,
+        "website": "https://www.zionsbancorporation.com"
+    },
+    "ZTS": {
+        "full_address": "10 Sylvan Way, Parsippany, 07054, United States",
+        "latitude": 40.8472451,
+        "longitude": -74.4498257,
+        "employees": 14500,
+        "website": "https://www.zoetis.com"
+    }
+}

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>pydeck</title>
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.14.0/dist/maplibre-gl.css" />
+    <script src='https://cdn.jsdelivr.net/npm/@deck.gl/jupyter-widget@~9.2.*/dist/index.js'></script>
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@deck.gl/widgets@~9.2.*/dist/stylesheet.css />
+    <style>
+    body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#deck-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#deck-container canvas {
+  z-index: 1;
+  background: none;
+}
+
+#deck-container .error_text {
+  color: red;
+  background: none;
+  position: absolute;
+  z-index: 100;
+}
+    </style>
+  </head>
+  <body>
+    <div id="deck-container">
+    </div>
+  </body>
+  <script>
+    const container = document.getElementById('deck-container');
+    const jsonInput = {
+  "initialViewState": {
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "pitch": 45,
+    "zoom": 7
+  },
+  "layers": [
+    {
+      "@@type": "ColumnLayer",
+      "data": [
+        {
+          "employees": 96100,
+          "full_address": "1 Francis Crick Avenue, Cambridge, CB2 0AA, United Kingdom",
+          "latitude": 52.175268,
+          "longitude": 0.1341117,
+          "website": "https://www.astrazeneca.com"
+        },
+        {
+          "employees": 84000,
+          "full_address": "Shell Centre, London, SE1 7NA, United Kingdom",
+          "latitude": 51.5037985,
+          "longitude": -0.116905,
+          "website": "https://www.shell.com"
+        },
+        {
+          "employees": 208844,
+          "full_address": "8 Canada Square, London, E14 5HQ, United Kingdom",
+          "latitude": 51.5054316,
+          "longitude": -0.0174404,
+          "website": "https://www.hsbc.com"
+        },
+        {
+          "employees": 93731,
+          "full_address": "Unilever House, London, EC4Y 0DY, United Kingdom",
+          "latitude": 51.5117203,
+          "longitude": -0.1050384,
+          "website": "https://www.unilever.com"
+        },
+        {
+          "employees": 93700,
+          "full_address": "1 St James's Square, London, SW1Y 4PD, United Kingdom",
+          "latitude": 51.507825,
+          "longitude": -0.134197,
+          "website": "https://www.bp.com"
+        },
+        {
+          "employees": 66841,
+          "full_address": "79 New Oxford Street, London, WC1A 1DG, United Kingdom",
+          "latitude": 51.5167434,
+          "longitude": -0.1280625,
+          "website": "https://www.gsk.com"
+        },
+        {
+          "employees": 56890,
+          "full_address": "6 St James\u2019s Square, London, SW1Y 4AD, United Kingdom",
+          "latitude": 51.5081148,
+          "longitude": -0.1353296,
+          "website": "https://www.riotinto.com"
+        },
+        {
+          "employees": 80423,
+          "full_address": "Baarermattstrasse 3, Baar, 6340, Switzerland",
+          "latitude": 47.1813888,
+          "longitude": 8.5272599,
+          "website": "https://www.glencore.com"
+        },
+        {
+          "employees": 29632,
+          "full_address": "16 Great Marlborough Street, London, W1F 7HS, United Kingdom",
+          "latitude": 51.5147252,
+          "longitude": -0.139181,
+          "website": "https://www.diageo.com"
+        },
+        {
+          "employees": 47797,
+          "full_address": "Globe House, London, WC2R 2PG, United Kingdom",
+          "latitude": 51.49349,
+          "longitude": -0.1439089,
+          "website": "https://www.bat.com"
+        },
+        {
+          "employees": 28516,
+          "full_address": "10 Paternoster Square, London, EC4M 7LS, United Kingdom",
+          "latitude": 51.515044,
+          "longitude": -0.0990793,
+          "website": "https://www.lseg.com"
+        },
+        {
+          "employees": 35720,
+          "full_address": "1-3 Strand, London, WC2N 5JR, United Kingdom",
+          "latitude": 51.5078738,
+          "longitude": -0.1267247,
+          "website": "https://www.relx.com"
+        },
+        {
+          "employees": 33026,
+          "full_address": "1-3 Strand, London, WC2N 5EH, United Kingdom",
+          "latitude": 51.5078738,
+          "longitude": -0.1267247,
+          "website": "https://www.nationalgrid.com"
+        },
+        {
+          "employees": 91128,
+          "full_address": "Vodafone House, Newbury, RG14 2FN, United Kingdom",
+          "latitude": 51.4166593,
+          "longitude": -1.3197651,
+          "website": "https://www.vodafone.com"
+        },
+        {
+          "employees": 93000,
+          "full_address": "1 Churchill Place, London, E14 5HP, United Kingdom",
+          "latitude": 51.5047075,
+          "longitude": -0.0145414,
+          "website": "https://home.barclays"
+        },
+        {
+          "employees": 60061,
+          "full_address": "33 Old Broad Street, London, EC2N 1HZ, United Kingdom",
+          "latitude": 51.5158235,
+          "longitude": -0.0835294,
+          "website": "https://www.lloydsbankinggroup.com"
+        },
+        {
+          "employees": 53200,
+          "full_address": "Gogarburn, Edinburgh, EH12 1HQ, United Kingdom",
+          "latitude": 55.9379758,
+          "longitude": -3.3322689,
+          "website": "https://www.natwestgroup.com"
+        },
+        {
+          "employees": 81514,
+          "full_address": "1 Basinghall Avenue, London, EC2V 5DD, United Kingdom",
+          "latitude": 51.5167495,
+          "longitude": -0.0910541,
+          "website": "https://www.sc.com"
+        },
+        {
+          "employees": 39359,
+          "full_address": "80 Fenchurch Street, London, EC3M 4AE, United Kingdom",
+          "latitude": 51.5127175,
+          "longitude": -0.0777775,
+          "website": "https://www.aviva.com"
+        },
+        {
+          "employees": 590000,
+          "full_address": "Compass House, Chertsey, KT16 9BQ, United Kingdom",
+          "latitude": 51.3875097,
+          "longitude": -0.5078906,
+          "website": "https://www.compass-group.com"
+        },
+        {
+          "employees": 25100,
+          "full_address": "121 Winterstoke Road, Bristol, BS3 2LL, United Kingdom",
+          "latitude": 51.4359927,
+          "longitude": -2.6213792,
+          "website": "https://www.imperialbrandsplc.com"
+        },
+        {
+          "employees": 139087,
+          "full_address": "33 Charterhouse Street, London, EC1M 6HA, United Kingdom",
+          "latitude": 51.5194602,
+          "longitude": -0.1024397,
+          "website": "https://www.about.sainsburys.co.uk"
+        },
+        {
+          "employees": 51405,
+          "full_address": "Waterside House, London, W2 1NW, United Kingdom",
+          "latitude": 51.5186523,
+          "longitude": -0.175001,
+          "website": "https://corporate.marksandspencer.com"
+        },
+        {
+          "employees": 26400,
+          "full_address": "17 Charterhouse Street, London, EC1N 6RA, United Kingdom",
+          "latitude": 51.5182274,
+          "longitude": -0.1063049,
+          "website": "https://www.angloamerican.com"
+        },
+        {
+          "employees": 111400,
+          "full_address": "6 Carlton Gardens, London, SW1Y 5AD, United Kingdom",
+          "latitude": 51.5157958,
+          "longitude": -0.3100838,
+          "website": "https://www.baesystems.com"
+        },
+        {
+          "employees": 43162,
+          "full_address": "Kings Place, London, N1 9FX, United Kingdom",
+          "latitude": 51.5349626,
+          "longitude": -0.1217677,
+          "website": "https://www.rolls-royce.com"
+        },
+        {
+          "employees": 12069,
+          "full_address": "1 West Regent Street, Glasgow, G2 1RW, United Kingdom",
+          "latitude": 55.8627359,
+          "longitude": -4.2553172,
+          "website": "https://www.global.weir"
+        },
+        {
+          "employees": 10072,
+          "full_address": "Charlton House, Cheltenham, GL53 8ER, United Kingdom",
+          "latitude": 51.8881882,
+          "longitude": -2.0582737,
+          "website": "https://www.spiraxgroup.com"
+        },
+        {
+          "employees": 35000,
+          "full_address": "751 Lakefront Commons, Newport News, 23606, United States",
+          "latitude": 37.0883483,
+          "longitude": -76.4726785,
+          "website": "https://www.corporate.ferguson.com"
+        },
+        {
+          "employees": 14052,
+          "full_address": "5 Howick Place, London, SW1P 1WG, United Kingdom",
+          "latitude": 51.4968299,
+          "longitude": -0.1363766,
+          "website": "https://www.informa.com"
+        },
+        {
+          "employees": 1239,
+          "full_address": "No.3 Circle Square, Manchester, M1 7BL, United Kingdom",
+          "latitude": 53.4726564,
+          "longitude": -2.2368584,
+          "website": "https://plc.autotrader.co.uk"
+        },
+        {
+          "employees": 8500,
+          "full_address": "Fifth Floor, London, N1C 4AG, United Kingdom",
+          "latitude": 51.4964842,
+          "longitude": -0.2739823,
+          "website": "https://www.rsgroup.com"
+        },
+        {
+          "employees": 11700,
+          "full_address": "DCC House, Dublin, D18 PK00, Ireland",
+          "latitude": 53.3385673,
+          "longitude": -6.2480235,
+          "website": "https://www.dcc.ie"
+        },
+        {
+          "employees": 26777,
+          "full_address": "York House, London, W1H 7JT, United Kingdom",
+          "latitude": 51.447655,
+          "longitude": -0.3242886,
+          "website": "https://www.bunzl.com"
+        },
+        {
+          "employees": 28518,
+          "full_address": "One Madison Avenue, New York, 10010, United States",
+          "latitude": 40.7437008,
+          "longitude": -73.9859199,
+          "website": "https://www.flutter.com"
+        },
+        {
+          "employees": 63388,
+          "full_address": "Compass House, Crawley, RH10 9PY, United Kingdom",
+          "latitude": 51.1305812,
+          "longitude": -0.1750454,
+          "website": "https://www.rentokil-initial.com"
+        },
+        {
+          "employees": 4435,
+          "full_address": "1 George Street, Edinburgh, EH2 2LL, United Kingdom",
+          "latitude": 55.9542271,
+          "longitude": -3.1949214,
+          "website": "https://www.abrdn.com"
+        },
+        {
+          "employees": 611,
+          "full_address": "York House, London, W1H 7LX, United Kingdom",
+          "latitude": 51.447655,
+          "longitude": -0.3242886,
+          "website": "https://www.britishland.com"
+        },
+        {
+          "employees": 700,
+          "full_address": "100 Victoria Street, London, SW1E 5JL, United Kingdom",
+          "latitude": 51.4971081,
+          "longitude": -0.1409527,
+          "website": "https://www.landsec.com"
+        },
+        {
+          "employees": 69720,
+          "full_address": "1 Paddington Square, London, W2 1GG, United Kingdom",
+          "latitude": 51.5165273,
+          "longitude": -0.1758301,
+          "website": "https://www.kingfisher.com"
+        },
+        {
+          "employees": 4605,
+          "full_address": "Persimmon House, York, YO19 4FE, United Kingdom",
+          "latitude": 53.9207847,
+          "longitude": -1.0656263,
+          "website": "https://www.persimmonhomes.com"
+        },
+        {
+          "employees": 463,
+          "full_address": "1 New Burlington Place, London, W1S 2HR, United Kingdom",
+          "latitude": 51.5121472,
+          "longitude": -0.1404765,
+          "website": "https://www.segro.com"
+        },
+        {
+          "employees": 1917,
+          "full_address": "South Quay House, Bristol, BS1 6FL, United Kingdom",
+          "latitude": 51.4526312,
+          "longitude": -2.5853784,
+          "website": "https://www.unitegroup.com"
+        },
+        {
+          "employees": 20573,
+          "full_address": "Millstream, Windsor, SL4 5GD, United Kingdom",
+          "latitude": 51.4857291,
+          "longitude": -0.6388585,
+          "website": "https://www.centrica.com"
+        },
+        {
+          "employees": 15197,
+          "full_address": "Inveralmond House, Perth, PH1 3AQ, United Kingdom",
+          "latitude": 56.4174154,
+          "longitude": -3.4643324,
+          "website": "https://www.sse.com"
+        },
+        {
+          "employees": 45425,
+          "full_address": "33 Cavendish Square, London, W1G 0PS, United Kingdom",
+          "latitude": 51.5156614,
+          "longitude": -0.1438095,
+          "website": "https://www.intertek.com"
+        },
+        {
+          "employees": 9400,
+          "full_address": "10 Portman Square, London, W1H 6AZ, United Kingdom",
+          "latitude": 51.5167602,
+          "longitude": -0.1546846,
+          "website": "https://www.hikma.com"
+        },
+        {
+          "employees": 16988,
+          "full_address": "Building 5, Watford, WD18 8YE, United Kingdom",
+          "latitude": 51.6436663,
+          "longitude": -0.4308482,
+          "website": "https://www.smith-nephew.com"
+        },
+        {
+          "employees": 98655,
+          "full_address": "Sea Containers, London, SE1 9GL, United Kingdom",
+          "latitude": 51.507974,
+          "longitude": -0.1068403,
+          "website": "https://www.wpp.com"
+        },
+        {
+          "employees": 279,
+          "full_address": "16 Palace Street, London, SW1E 5JD, United Kingdom",
+          "latitude": 51.4975784,
+          "longitude": -0.1394964,
+          "website": "https://www.ashmoregroup.com"
+        },
+        {
+          "employees": 14805,
+          "full_address": "Ty Admiral, Cardiff, CF10 2EH, United Kingdom",
+          "latitude": 51.4794989,
+          "longitude": -3.1731326,
+          "website": "https://admiralgroup.co.uk"
+        },
+        {
+          "employees": 31589,
+          "full_address": "Desford Road, Enderby, LE19 4AT, United Kingdom",
+          "latitude": 52.5974734,
+          "longitude": -1.2225617,
+          "website": "https://www.nextplc.co.uk"
+        },
+        {
+          "employees": 33582,
+          "full_address": "Turmstrasse 26, Steinhausen, 6312, Switzerland",
+          "latitude": 47.1884315,
+          "longitude": 8.4810154,
+          "website": "https://www.coca-colahellenic.com"
+        },
+        {
+          "employees": 3400,
+          "full_address": "10-11 Charterhouse Square, London, EC1M 6EE, United Kingdom",
+          "latitude": 51.5211202,
+          "longitude": -0.0986484,
+          "website": "https://www.diplomaplc.com"
+        },
+        {
+          "employees": 13665,
+          "full_address": "80 Strand, London, WC2R 0RL, United Kingdom",
+          "latitude": 51.5097337,
+          "longitude": -0.1213094,
+          "website": "https://plc.pearson.com"
+        },
+        {
+          "employees": 900,
+          "full_address": "2 Caldecotte Lake Business Park, Milton Keynes, MK7 8LE, United Kingdom",
+          "latitude": 52.0039812,
+          "longitude": -0.6992387,
+          "website": "https://plc.rightmove.co.uk"
+        },
+        {
+          "employees": 12000,
+          "full_address": "105 Wigmore Street, London, W1U 1QY, United Kingdom",
+          "latitude": 51.515268,
+          "longitude": -0.1540282,
+          "website": "https://www.howdenjoinerygroupplc.com"
+        },
+        {
+          "employees": 30000,
+          "full_address": "Brook Park East, Shirebrook, NG20 8RY, United Kingdom",
+          "latitude": 53.1965318,
+          "longitude": -1.205806,
+          "website": "https://www.frasers.group"
+        },
+        {
+          "employees": 39054,
+          "full_address": "26 New Street, Saint Helier, JE2 3RA, Jersey",
+          "latitude": 49.1857236,
+          "longitude": -2.1063926,
+          "website": "https://www.bandmretail.com"
+        },
+        {
+          "employees": 10910,
+          "full_address": "20 Eastbourne Terrace, London, W2 6LG, United Kingdom",
+          "latitude": 51.5166662,
+          "longitude": -0.1790635,
+          "website": "https://www.convatecgroup.com"
+        },
+        {
+          "employees": 990,
+          "full_address": "Trainline, London, EC4A 4AH, United Kingdom",
+          "latitude": 51.518035,
+          "longitude": -0.1080736,
+          "website": "https://www.trainlinegroup.com"
+        },
+        {
+          "employees": 2552,
+          "full_address": "Berkeley House, Cobham, KT11 1JG, United Kingdom",
+          "latitude": 51.3330794,
+          "longitude": -0.419637,
+          "website": "https://www.berkeleygroup.co.uk"
+        },
+        {
+          "employees": 5381,
+          "full_address": "5 Young Street, London, W8 5EH, United Kingdom",
+          "latitude": 51.5017864,
+          "longitude": -0.1897869,
+          "website": "https://www.endeavourmining.com"
+        }
+      ],
+      "elevationScale": 0.5,
+      "getElevation": "@@=employees",
+      "getFillColor": "@@=[255, 0, 0, 200]",
+      "getPosition": "@@=[longitude, latitude]",
+      "id": "7fd81380-4380-403e-a179-8fb0def81bdf",
+      "pickable": true,
+      "radius": 1000
+    }
+  ],
+  "mapProvider": "carto",
+  "mapStyle": "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+  "views": [
+    {
+      "@@type": "MapView",
+      "controller": true
+    }
+  ]
+};
+    const tooltip = {'text': 'website: {website}\n employees:{employees}'};
+    const customLibraries = null;
+    const configuration = null;
+
+    const deckInstance = createDeck({
+                  container,
+      jsonInput,
+      tooltip,
+      customLibraries,
+      configuration,
+          });
+
+  </script>
+</html>
